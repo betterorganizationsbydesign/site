@@ -1,0 +1,866 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="./assets/libs/choices.js/public/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="./assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="./assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="./assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="./assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="./assets/libs/quill/dist/quill.core.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.min.css">
+
+    <title>Landkit</title>
+
+    <link rel="icon" href="./assets/img/boxd/favicon.webp" sizes="32x32" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+  </head>
+  <body class="bg-light">
+
+    <!-- MODALS
+    ================================================== -->
+    <!-- Example -->
+    <div class="modal" id="modalExample" tabindex="-1" role="dialog" aria-labelledby="modalExampleTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+    	      <h1>Hello!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow py-lg-3 py-1 navbar-light bg-white">
+      <div class="container-md">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/img/boxd/boxd-logo.png" class="navbar-brand-img" alt="...">
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+
+          <!-- Navigation -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                What We Solve For
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                What We Solve For
+              </a>
+              <div class="dropdown-menu dropdown-menu-md p-0" aria-labelledby="navbarLandings">
+                <div class="row no-gutters">
+                  <div class="col-12">
+                    <div class="dropdown-body">
+                      <div class="row no-gutters">
+                        <div class="col-12">
+                          <!-- List -->
+                          <a class="font-weight-bold dropdown-item text-secondary" href="./what-we-solve/culture-and-transformation.html">
+                            Culture and Transformation
+                          </a>
+                          <p>Match your culture to your strategy to accelerate performance.</p>
+
+    		      <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary" href="./what-we-solve/scalable-organizations.html">
+                            Scalable Organizations
+                          </a>
+                          <p>Build organizations ready for rapid growth.</p>
+
+    		      <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary" href="./what-we-solve/diversity-equity-and-inclusion.html">
+                            Diversity, Equity and Inclusion
+                          </a>
+
+                          <p>Go beyond bias training to make lasting change.</p>
+
+    		      <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary" href="./what-we-solve/new-leader-integration.html">
+                            New Leader Integration
+                          </a>
+
+                          <p class="mb-0">Unlock leadership potential to unlock limitless impact.</p>
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                What We Do
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                What We Do
+              </a>
+              <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarPages">
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <div class="row no-gutters">
+                      <div class="col-12">
+                        <a class="font-weight-bold dropdown-item text-secondary" href="./what-we-do/strategic-meeting-design-and-facilitation.html">
+                          Strategic Meeting Design and Facilitation
+                        </a>
+    		      <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary" href="./what-we-do/organization-design.html">
+                          Organization Design
+                        </a>
+    		      <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary" href="./what-we-do/team-acceleration.html">
+                          Team Acceleration
+                        </a>
+    		      <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary" href="./what-we-do/leader-development.html">
+                          Executive and Leader Development
+                        </a>
+    		      <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary" href="./what-we-do/discovery-and-insights.html">
+                          Discovery and Insights
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                Who We Are
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                Who We Are
+              </a>
+              <div class="dropdown-menu dropdown-menu-md p-0" aria-labelledby="navbarLandings">
+                <div class="row no-gutters">
+                  <div class="col-12">
+                    <div class="dropdown-body">
+                      <div class="row no-gutters">
+                        <div class="col-12">
+                          <!-- List -->
+                          <a class="font-weight-bold dropdown-item text-secondary" href="./who-we-are/about-us.html">
+                            About Us
+                          </a>
+                          <p>Our mission, vision and who we are</p>
+
+    		      <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary" href="./who-we-are/our-team.html">
+                            Our Team
+                          </a>
+                          <p>Managing team and partner consultants</p>
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!--
+            <li class="nav-item">
+              <a class="nav-link px-4 text-white" href="#" aria-haspopup="true" aria-expanded="false">
+                Resources
+              </a>
+            </li>
+            -->
+
+            <li class="nav-item">
+              <a class="nav-link px-4 text-white" href="/join-us/index.html" aria-haspopup="true" aria-expanded="false">
+                Join Us
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white" id="navbarDocumentation" href="/contact.html" aria-haspopup="true" aria-expanded="false">
+                Connect With Us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- BREADCRUMB
+    ================================================== -->
+    <nav class="bg-dark d-md-none">
+      <div class="container-md">
+        <div class="row align-items-center">
+          <div class="col">
+
+            <!-- Breadcrumb -->
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <span class="text-white">
+                  Account
+                </span>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                <span class="text-white">
+                  Security
+                </span>
+              </li>
+            </ol>
+
+          </div>
+          <div class="col-auto">
+
+            <!-- Toggler -->
+            <div class="navbar-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenavCollapse" aria-controls="sidenavCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </nav>
+
+    <!-- HEADER
+    ================================================== -->
+    <header class="bg-dark pt-9 pb-11 d-none d-md-block">
+      <div class="container-md">
+        <div class="row align-items-center">
+          <div class="col">
+
+            <!-- Heading -->
+            <h1 class="font-weight-bold text-white mb-2">
+              Account Settings
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg text-white-75 mb-0">
+              Settings for <a class="text-reset" href="mailto:dhgamache@gmail.com">dhgamache@gmail.com</a>
+            </p>
+
+          </div>
+          <div class="col-auto">
+
+            <!-- Button -->
+            <button class="btn btn-sm btn-gray-300-20">
+              Log Out
+            </button>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </header>
+
+    <!-- MAIN
+    ================================================== -->
+    <main class="pb-8 pb-md-11 mt-md-n6">
+      <div class="container-md">
+        <div class="row">
+          <div class="col-12 col-md-3">
+
+            <!-- Card -->
+            <div class="card card-bleed border-bottom border-bottom-md-0 shadow-light-lg">
+
+              <!-- Collapse -->
+              <div class="collapse d-md-block" id="sidenavCollapse">
+                <div class="card-body">
+
+                  <!-- Heading -->
+                  <h6 class="font-weight-bold text-uppercase mb-3">
+                    Account
+                  </h6>
+
+                  <!-- List -->
+                  <ul class="card-list list text-gray-700 mb-6">
+                    <li class="list-item">
+                      <a class="list-link text-reset" href="account-general.html">
+                        General
+                      </a>
+                    </li>
+                    <li class="list-item active">
+                      <a class="list-link text-reset" href="account-security.html">
+                        Security
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a class="list-link text-reset" href="account-notifications.html">
+                        Notifications
+                      </a>
+                    </li>
+                  </ul>
+
+                  <!-- Heading -->
+                  <h6 class="font-weight-bold text-uppercase mb-3">
+                    Billing
+                  </h6>
+
+                  <!-- List -->
+                  <ul class="card-list list text-gray-700 mb-0">
+                    <li class="list-item">
+                      <a class="list-link text-reset" href="billing-plans-and-payment.html">
+                        Plans & Payment
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a class="list-link text-reset" href="billing-users.html">
+                        Users
+                      </a>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-9">
+
+            <!-- Card -->
+            <div class="card card-bleed shadow-light-lg mb-6">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Heading -->
+                    <h4 class="mb-0">
+                      Two Factor
+                    </h4>
+
+                  </div>
+                  <div class="col-auto mr-n5">
+
+                    <!-- Text -->
+                    <small class="text-gray-700">
+                      Requred?
+                    </small>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Switch -->
+                    <div class="custom-control custom-switch">
+                      <input type="checkbox" class="custom-control-input" id="twoFactorSwitch" checked>
+                      <label class="custom-control-label" for="twoFactorSwitch"></label>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+
+                <!-- List group -->
+                <div class="list-group list-group-flush">
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col">
+
+                        <!-- Heading -->
+                        <p class="mb-0">
+                          Authenticator App
+                        </p>
+
+                        <!-- Text -->
+                        <small class="text-gray-700">
+                          Google auth or 1Password
+                        </small>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Button -->
+                        <button class="btn btn-xs btn-outline-white">
+                          Setup
+                        </button>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col">
+
+                        <!-- Heading -->
+                        <p class="mb-0">
+                          SMS Recovery <i class="fe fe-info text-gray-500" data-toggle="tooltip" title="We use the the phone number you provide in General"></i>
+                        </p>
+
+                        <!-- Text -->
+                        <small class="text-gray-700">
+                          Standard messaging rates apply
+                        </small>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Button -->
+                        <button class="btn btn-xs btn-danger">
+                          Disable
+                        </button>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col">
+
+                        <!-- Heading -->
+                        <p class="mb-0">
+                          Recovery Codes <i class="fe fe-info text-gray-500" data-toggle="tooltip" title="We use the the phone number you provide in General"></i>
+                        </p>
+
+                        <!-- Text -->
+                        <small class="text-gray-700">
+                          One time use safety codes
+                        </small>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Button -->
+                        <button class="btn btn-xs btn-outline-white">
+                          Reveal
+                        </button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Card -->
+            <div class="card card-bleed shadow-light-lg mb-6">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Heading -->
+                    <h4 class="mb-0">
+                      Password
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Link -->
+                    <a class="small text-gray-700" href="#!">
+                      Forgot your password?
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+
+                <!-- Current password -->
+                <div class="form-group">
+                  <label for="currentPassword">Current Password</label>
+                  <input class="form-control" id="currentPassword" type="password">
+                </div>
+
+                <!-- New password -->
+                <div class="form-group">
+                  <label for="newPassword">New Password</label>
+                  <input class="form-control" id="newPassword" type="password">
+                </div>
+
+                <!-- Confirm password -->
+                <div class="form-group">
+                  <label for="confirmPassword">Confirm Password</label>
+                  <input class="form-control" id="confirmPassword" type="password">
+                </div>
+
+
+                <div class="row">
+                  <div class="col-12 col-md-auto">
+
+                    <!-- Button -->
+                    <button class="btn btn-block btn-primary" type="submit">
+                      Update Password
+                    </button>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Card -->
+            <div class="card card-bleed shadow-light-lg">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Heading -->
+                    <h4 class="mb-0">
+                      Device History
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Link -->
+                    <a class="small text-gray-700" href="#!">
+                      Log out all
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+
+                <!-- List group -->
+                <div class="list-group list-group-flush">
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Icon -->
+                        <div class="icon icon-sm text-gray-400">
+                          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M8 2.5c-.69 0-1.25.56-1.25 1.25v16.5c0 .69.56 1.25 1.25 1.25h8c.69 0 1.25-.56 1.25-1.25V3.75c0-.69-.56-1.25-1.25-1.25H8z" fill="#335EEA" opacity=".3"/><path d="M8 2.5c-.69 0-1.25.56-1.25 1.25v16.5c0 .69.56 1.25 1.25 1.25h8c.69 0 1.25-.56 1.25-1.25V3.75c0-.69-.56-1.25-1.25-1.25H8zM8 1h8a2.75 2.75 0 012.75 2.75v16.5A2.75 2.75 0 0116 23H8a2.75 2.75 0 01-2.75-2.75V3.75A2.75 2.75 0 018 1zm1.5.75h5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5z" fill="#335EEA"/></g></svg>
+                        </div>
+
+                      </div>
+                      <div class="col ml-n5">
+
+                        <!-- Heading -->
+                        <p class="mb-0">
+                          iPhone 11
+                        </p>
+
+                        <!-- Text -->
+                        <small class="text-gray-700">
+                          Los Angeles, CA · April 20 at 4:16PM
+                        </small>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Button -->
+                        <button class="btn btn-xs btn-outline-white">
+                          Log out
+                        </button>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Icon -->
+                        <div class="icon icon-sm text-gray-400">
+                          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M5 5v11h14V5H5zm0-2h14c1.42 0 2 .716 2 1.6v12.8c0 .884-.58 1.6-2 1.6H5c-1.42 0-2-.716-2-1.6V4.6C3 3.716 3.58 3 5 3zm7 15a.5.5 0 100-1 .5.5 0 000 1z" fill="#335EEA"/><path fill="#335EEA" opacity=".3" d="M5 5v11h14V5z"/><rect fill="#335EEA" opacity=".3" x="10" y="20" width="4" height="1" rx=".5"/></g></svg>
+                        </div>
+
+                      </div>
+                      <div class="col ml-n5">
+
+                        <!-- Heading -->
+                        <p class="mb-0">
+                          iMac OSX · Chrome v80.02
+                        </p>
+
+                        <!-- Text -->
+                        <small class="text-gray-700">
+                          Los Angeles, CA · April 20 at 4:16PM
+                        </small>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Button -->
+                        <button class="btn btn-xs btn-outline-white">
+                          Log out
+                        </button>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Icon -->
+                        <div class="icon icon-sm text-gray-400">
+                          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M8 2.5c-.69 0-1.25.56-1.25 1.25v16.5c0 .69.56 1.25 1.25 1.25h8c.69 0 1.25-.56 1.25-1.25V3.75c0-.69-.56-1.25-1.25-1.25H8z" fill="#335EEA" opacity=".3"/><path d="M8 2.5c-.69 0-1.25.56-1.25 1.25v16.5c0 .69.56 1.25 1.25 1.25h8c.69 0 1.25-.56 1.25-1.25V3.75c0-.69-.56-1.25-1.25-1.25H8zM8 1h8a2.75 2.75 0 012.75 2.75v16.5A2.75 2.75 0 0116 23H8a2.75 2.75 0 01-2.75-2.75V3.75A2.75 2.75 0 018 1zm1.5.75h5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5z" fill="#335EEA"/></g></svg>
+                        </div>
+
+                      </div>
+                      <div class="col ml-n5">
+
+                        <!-- Heading -->
+                        <p class="mb-0">
+                          iPhone 11
+                        </p>
+
+                        <!-- Text -->
+                        <small class="text-gray-700">
+                          Los Angeles, CA · April 20 at 4:16PM
+                        </small>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Button -->
+                        <button class="btn btn-xs btn-outline-white">
+                          Log out
+                        </button>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Icon -->
+                        <div class="icon icon-sm text-gray-400">
+                          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M5 5v11h14V5H5zm0-2h14c1.42 0 2 .716 2 1.6v12.8c0 .884-.58 1.6-2 1.6H5c-1.42 0-2-.716-2-1.6V4.6C3 3.716 3.58 3 5 3zm7 15a.5.5 0 100-1 .5.5 0 000 1z" fill="#335EEA"/><path fill="#335EEA" opacity=".3" d="M5 5v11h14V5z"/><rect fill="#335EEA" opacity=".3" x="10" y="20" width="4" height="1" rx=".5"/></g></svg>
+                        </div>
+
+                      </div>
+                      <div class="col ml-n5">
+
+                        <!-- Heading -->
+                        <p class="mb-0">
+                          iMac OSX · Chrome v80.02
+                        </p>
+
+                        <!-- Text -->
+                        <small class="text-gray-700">
+                          Los Angeles, CA · April 20 at 4:16PM
+                        </small>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Button -->
+                        <button class="btn btn-xs btn-outline-white">
+                          Log out
+                        </button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </main>
+
+    <!-- CURVE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>
+      </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    <footer class="py-8 py-md-11 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-3">
+        
+            <!-- Brand -->
+            <h1 class="text-white font-weight-bold">BOxD</h1>
+
+          </div>
+          <div class="col-6 col-md-3">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              What We Solve For
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="./what-we-solve/culture-and-transformation.html" class="text-reset">
+    	      Culture and Transformation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./what-we-solve/scalable-organizations.html" class="text-reset">
+                  Scalable Organizations
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./what-we-solve/diversity-equity-and-inclusion.html" class="text-reset">
+    	      Diversity, Equity and Inclusion
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./what-we-solve/new-leader-integration.html" class="text-reset">
+    	      New Leader Integration
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-md-3">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              What We Do
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="./what-we-do/strategic-meeting-design-and-facilitation.html" class="text-reset">
+                  Strategic Meeting Design and Facilitation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./what-we-do/organization-design.html" class="text-reset">
+                  Organization Design
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./what-we-do/team-acceleration.html" class="text-reset">
+                  Team Acceleration
+                </a>
+              </li>
+              <li>
+                <a href="./what-we-do/leader-development.html" class="text-reset">
+                  Executive and Leader Development
+                </a>
+              </li>
+              <li>
+                <a href="./what-we-do/discovery-and-insights.html" class="text-reset">
+                  Discovery and Insights
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="col-6 col-md-3">
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Who We Are
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="./who-we-are/about-us.html" class="text-reset">
+                  About Us
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./who-we-are/our-team.html" class="text-reset">
+                  Our Team
+                </a>
+              </li>
+            </ul>
+
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Legal
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="./terms-of-service.html" class="text-reset">
+                  Terms of Service
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./privacy-policy.html" class="text-reset">
+                  Privacy Policy
+                </a>
+              </li>
+            </ul>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
+
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="./assets/libs/aos/dist/aos.js"></script>
+    <script src="./assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="./assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="./assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="./assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="./assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="./assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="./assets/libs/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="./assets/libs/quill/dist/quill.min.js"></script>
+    <script src="./assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="./assets/libs/typed.js/lib/typed.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HGTNRWF5F2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-HGTNRWF5F2');
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000"
+          },
+          "button": {
+            "background": "#f1d600"
+          }
+        },
+        "theme": "classic"
+      });
+    </script>
+
+
+  </body>
+</html>

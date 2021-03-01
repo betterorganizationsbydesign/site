@@ -1,0 +1,16 @@
+2021-09-08
+
+"Website isn't designed to be edited in a dashboard"
+Developer tools are needed to edit it. I used a simple approach for a web developer to edit the code.
+
+Blog - use a current platform and just link to the website
+What pages do you foresee updating regularly? And how many times a month?
+Pending tasks like adding Google Analytics - I need access to the code snippet.
+Postmark - 100 emails a month
+Netflify - new hosting service, transfer of account
+How much were you spending before on hosting?
+
+
+once a month new people
+
+new client - add someone new

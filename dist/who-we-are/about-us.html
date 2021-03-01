@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="../assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="../assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="../assets/libs/choices.js/public/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="../assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="../assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="../assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="../assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="../assets/libs/quill/dist/quill.core.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../assets/css/theme.min.css">
+
+    <title>BOxD | Better Organizations by Design</title>
+
+    <link rel="icon" href="../assets/img/boxd/favicon.webp" sizes="32x32" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    <!-- Example -->
+    <div class="modal" id="modalExample" tabindex="-1" role="dialog" aria-labelledby="modalExampleTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+    	      <h1>Hello!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow py-lg-3 py-1 navbar-light bg-primary">
+      <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/img/boxd/boxd-logo.png" class="navbar-brand-img" alt="...">
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+
+          <!-- Navigation -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                What We Solve For
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                What We Solve For
+              </a>
+              <div class="dropdown-menu dropdown-menu-md p-0" aria-labelledby="navbarLandings">
+                <div class="row no-gutters">
+                  <div class="col-12">
+                    <div class="dropdown-body">
+                      <div class="row no-gutters">
+                        <div class="col-12">
+                          <!-- List -->
+                          <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-solve/culture-and-transformation.html">
+                            Culture and Transformation
+                          </a>
+                          <p>Match your culture to your strategy to accelerate performance.</p>
+
+    		      <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-solve/scalable-organizations.html">
+                            Scalable Organizations
+                          </a>
+                          <p>Build organizations ready for rapid growth.</p>
+
+    		      <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-solve/diversity-equity-and-inclusion.html">
+                            Diversity, Equity and Inclusion
+                          </a>
+
+                          <p>Go beyond bias training to make lasting change.</p>
+
+    		      <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-solve/new-leader-integration.html">
+                            New Leader Integration
+                          </a>
+
+                          <p class="mb-0">Unlock leadership potential to unlock limitless impact.</p>
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                What We Do
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                What We Do
+              </a>
+              <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarPages">
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <div class="row no-gutters">
+                      <div class="col-12">
+                        <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-do/strategic-meeting-design-and-facilitation.html">
+                          Strategic Meeting Design and Facilitation
+                        </a>
+    		      <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-do/organization-design.html">
+                          Organization Design
+                        </a>
+    		      <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-do/team-acceleration.html">
+                          Team Acceleration
+                        </a>
+    		      <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-do/leader-development.html">
+                          Executive and Leader Development
+                        </a>
+    		      <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-do/discovery-and-insights.html">
+                          Discovery and Insights
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                Who We Are
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                Who We Are
+              </a>
+              <div class="dropdown-menu dropdown-menu-md p-0" aria-labelledby="navbarLandings">
+                <div class="row no-gutters">
+                  <div class="col-12">
+                    <div class="dropdown-body">
+                      <div class="row no-gutters">
+                        <div class="col-12">
+                          <!-- List -->
+                          <a class="font-weight-bold dropdown-item text-secondary" href="../who-we-are/about-us.html">
+                            About Us
+                          </a>
+                          <p>Our mission, vision and who we are</p>
+
+    		      <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary" href="../who-we-are/our-team.html">
+                            Our Team
+                          </a>
+                          <p>Managing team and partner consultants</p>
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!--
+            <li class="nav-item">
+              <a class="nav-link px-4 text-white" href="#" aria-haspopup="true" aria-expanded="false">
+                Resources
+              </a>
+            </li>
+            -->
+
+            <li class="nav-item">
+              <a class="nav-link px-4 text-white" href="/join-us/index.html" aria-haspopup="true" aria-expanded="false">
+                Join Us
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white" id="navbarDocumentation" href="/contact.html" aria-haspopup="true" aria-expanded="false">
+                Connect With Us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <section class="container pt-11">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">WHAT WE DO</a></li>
+	  <li class="breadcrumb-item active" aria-current="page">ABOUT US</li>
+        </ol>
+      </nav>
+    </section>
+
+    <!-- WELCOME
+    ================================================== -->
+    <section class="py-3">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-5 order-md-2">
+            <img src="../who-we-are/assets/Team work_Monochromatic.png" class="img-fluid w-100" alt="..." data-aos="fade-up" data-aos-delay="100">
+          </div>
+
+          <div class="col-12 col-lg-7 order-md-1" data-aos="fade-up">
+            <h1 class="display-4 text-center text-md-left font-weight-bold">
+              Building a more equitable world of work
+            </h1>
+	    <p>
+	      On average, most of us will spend over a third of our waking lives at work. That’s why at BOxD, we have this radical idea that work should -- at the very least -- enrich people’s lives and improve their wellbeing. BOxD was born so that we could reimagine what the workplace can look, feel and sound like at its best.
+	    </p>
+
+	    <p class="font-weight-bold">
+              We know that when people work at the intersection of their passion and strengths for a meaningful purpose, this is the sweet spot for everyone. That’s why we care about working with people and companies that are committed to making a positive impact on the communities they serve and operate in.
+	    </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <section class="py-10">
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col-12 col-md-6" data-aos="fade-up">
+	    <h1 class="display-4">
+	      Our Mission
+	    </h1>
+	    <p class="display-5">
+	      We make companies their competitive best by transforming their leaders, teams and organizations.
+	    </p>
+	    <img src="../who-we-are/assets/Competition_Monochromatic.png" class="img-fluid w-50 mx-auto d-block pb-5" alt="..." data-aos="fade-up" data-aos-delay="100">
+          </div>
+          <div class="col-12 col-md-6" data-aos="fade-up">
+	    <h1 class="display-4">
+	      Our Vision
+	    </h1>
+	    <p class="display-5">
+	      BOxD is working to build a more equitable world in two key ways:
+	    </p>
+	    <ol>
+		    <li>
+			    We guide the leaders of companies we believe in to harness the power of organizational alignment and become fierce competitors to industry giants. We believe this type of competition is good for consumers around the world.
+		    </li>
+		    <li>
+			    We develop organizations and teams where all people are supported to leverage their strengths and be at their best. We believe work should enrich people's lives and improve their well-being.
+		    </li>
+	    </ol>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <section id="organization-design" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center" data-aos="fade-up">
+            <h1 class="display-4 font-weight-bold">Who We Are</h1>
+	  </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-3">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-7 order-md-2" data-aos="fade-up">
+	    <p>
+	      We're consultants. BOxD is a minority- and woman-owned consulting firm on a mission to make organizational design accessible to all companies.
+	    </p>
+	    <p>
+	      We are a team of unique, highly skilled organization design consultants, facilitators, and executive coaches.
+	    </p>
+	    <p>
+	      We are intentional about bringing individuals together to build bold and creative solutions for our clients.
+	    </p>
+	    <p>
+	      We're developing teams and organizations where everyone is supported to leverage strengths and do their best work.
+	    </p>
+	    <p>
+	      We guide leaders to harness the power of organizational alignment so their business can become fierce competitors to industry giants. We know this type of competition is good for everyone.
+	    </p>
+          </div>
+
+          <div class="col-12 col-lg-5 order-md-1">
+            <img src="../who-we-are/assets/Winners_Two Color.png" class="img-fluid w-100" alt="..." data-aos="fade-up" data-aos-delay="100">
+          </div>
+
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!--
+    <section class="py-9" style="background-color: #ffaaa8;">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center" data-aos="fade-up">
+            <h1 class="display-4 font-weight-bold">Our Story</h1>
+	  </div>
+	</div>
+
+	<div>
+	  <h1 class="display-5 font-weight-bold pt-3" data-aos="fade-up">
+	  We make companies their competitive best by transforming their leaders, teams and organizations.
+	  </h1>
+
+	  <p>
+	  BOxD was born from the hearts and minds of two passionate changemakers, Nenuca Syquia and Lydia Petrovic.
+	  </p>
+
+	  <p>
+          Nenuca was one of the first people to formally work in the organization design space at Cisco, where she used her talent for connecting the dots to redesign systems for effectiveness. What she loved most about her work was seeing how individuals, teams and leaders could thrive once their goals, strengths, and operating environment were aligned. She dreamed of helping smaller companies use design thinking and org design to achieve greatness, alongside industry giants like Cisco.
+	  </p>
+          
+	  <p>
+          Like many OD practitioners, Lydia’s background includes a tapestry of roles across industries: teacher, translator, sales director, and operations lead. Her experience working with so many different folks at every level gave her firsthand insight into the way people respond to large scale change. She entered the field of OD with a dream of making work feel better for people, by using her gift of tapping into individual strengths and motivations.
+	  </p>
+          
+	  <p>
+          Nenuca met Lydia at the University of San Francisco, where they joined the same cohort for an Organizational Development masters program. Together they built Better Organizations by Design, a new kind of consulting firm that would offer sophisticated organization design tools that reside on a bedrock of shared principles: equity, sustainability, and human connection.
+	  </p>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <section class="py-6 bg-gray-200">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12">
+
+            <!-- Heading -->
+            <h2 class="font-italic">"Business is personal. You work hard when you care hard. We, at BOxD, can get your people to the intersection of their personal values, unique strengths and a keen sense of purpose to unleash previously unimaginable results."</h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-gray-700 mb-6 text-right">
+              Nenuca Syquia, CEO
+            </p>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <section id="strategic-meetings" class="pt-10">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center" data-aos="fade-up">
+            <h2 class="display-6 font-weight-bold">Are we kindred spirits? Let’s find a better way to work, together.</h2>
+	    <a href="/contact.html" class="px-10 btn btn-primary">Let's Connect</a>
+	  </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative pt-10">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>
+      </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    <footer class="py-8 py-md-11 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-3">
+        
+            <!-- Brand -->
+            <h1 class="text-white font-weight-bold">BOxD</h1>
+
+          </div>
+          <div class="col-6 col-md-3">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              What We Solve For
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="../what-we-solve/culture-and-transformation.html" class="text-reset">
+    	      Culture and Transformation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-solve/scalable-organizations.html" class="text-reset">
+                  Scalable Organizations
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-solve/diversity-equity-and-inclusion.html" class="text-reset">
+    	      Diversity, Equity and Inclusion
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-solve/new-leader-integration.html" class="text-reset">
+    	      New Leader Integration
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-md-3">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              What We Do
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="../what-we-do/strategic-meeting-design-and-facilitation.html" class="text-reset">
+                  Strategic Meeting Design and Facilitation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-do/organization-design.html" class="text-reset">
+                  Organization Design
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-do/team-acceleration.html" class="text-reset">
+                  Team Acceleration
+                </a>
+              </li>
+              <li>
+                <a href="../what-we-do/leader-development.html" class="text-reset">
+                  Executive and Leader Development
+                </a>
+              </li>
+              <li>
+                <a href="../what-we-do/discovery-and-insights.html" class="text-reset">
+                  Discovery and Insights
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="col-6 col-md-3">
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Who We Are
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="../who-we-are/about-us.html" class="text-reset">
+                  About Us
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../who-we-are/our-team.html" class="text-reset">
+                  Our Team
+                </a>
+              </li>
+            </ul>
+
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Legal
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="../terms-of-service.html" class="text-reset">
+                  Terms of Service
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../privacy-policy.html" class="text-reset">
+                  Privacy Policy
+                </a>
+              </li>
+            </ul>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
+
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="../assets/libs/aos/dist/aos.js"></script>
+    <script src="../assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="../assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="../assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="../assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="../assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="../assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="../assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="../assets/libs/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="../assets/libs/quill/dist/quill.min.js"></script>
+    <script src="../assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="../assets/libs/typed.js/lib/typed.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HGTNRWF5F2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-HGTNRWF5F2');
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000"
+          },
+          "button": {
+            "background": "#f1d600"
+          }
+        },
+        "theme": "classic"
+      });
+    </script>
+
+
+  </body>
+</html>

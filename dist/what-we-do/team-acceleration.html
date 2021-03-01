@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="../assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="../assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="../assets/libs/choices.js/public/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="../assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="../assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="../assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="../assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="../assets/libs/quill/dist/quill.core.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../assets/css/theme.min.css">
+
+    <title>BOxD | Better Organizations by Design</title>
+
+    <link rel="icon" href="../assets/img/boxd/favicon.webp" sizes="32x32" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    <!-- Example -->
+    <div class="modal" id="modalExample" tabindex="-1" role="dialog" aria-labelledby="modalExampleTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+    	      <h1>Hello!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow py-lg-3 py-1 navbar-light bg-primary">
+      <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/img/boxd/boxd-logo.png" class="navbar-brand-img" alt="...">
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+
+          <!-- Navigation -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                What We Solve For
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                What We Solve For
+              </a>
+              <div class="dropdown-menu dropdown-menu-md p-0" aria-labelledby="navbarLandings">
+                <div class="row no-gutters">
+                  <div class="col-12">
+                    <div class="dropdown-body">
+                      <div class="row no-gutters">
+                        <div class="col-12">
+                          <!-- List -->
+                          <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-solve/culture-and-transformation.html">
+                            Culture and Transformation
+                          </a>
+                          <p>Match your culture to your strategy to accelerate performance.</p>
+
+    		      <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-solve/scalable-organizations.html">
+                            Scalable Organizations
+                          </a>
+                          <p>Build organizations ready for rapid growth.</p>
+
+    		      <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-solve/diversity-equity-and-inclusion.html">
+                            Diversity, Equity and Inclusion
+                          </a>
+
+                          <p>Go beyond bias training to make lasting change.</p>
+
+    		      <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-solve/new-leader-integration.html">
+                            New Leader Integration
+                          </a>
+
+                          <p class="mb-0">Unlock leadership potential to unlock limitless impact.</p>
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                What We Do
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                What We Do
+              </a>
+              <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarPages">
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <div class="row no-gutters">
+                      <div class="col-12">
+                        <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-do/strategic-meeting-design-and-facilitation.html">
+                          Strategic Meeting Design and Facilitation
+                        </a>
+    		      <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-do/organization-design.html">
+                          Organization Design
+                        </a>
+    		      <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-do/team-acceleration.html">
+                          Team Acceleration
+                        </a>
+    		      <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-do/leader-development.html">
+                          Executive and Leader Development
+                        </a>
+    		      <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary" href="../what-we-do/discovery-and-insights.html">
+                          Discovery and Insights
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                Who We Are
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                Who We Are
+              </a>
+              <div class="dropdown-menu dropdown-menu-md p-0" aria-labelledby="navbarLandings">
+                <div class="row no-gutters">
+                  <div class="col-12">
+                    <div class="dropdown-body">
+                      <div class="row no-gutters">
+                        <div class="col-12">
+                          <!-- List -->
+                          <a class="font-weight-bold dropdown-item text-secondary" href="../who-we-are/about-us.html">
+                            About Us
+                          </a>
+                          <p>Our mission, vision and who we are</p>
+
+    		      <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary" href="../who-we-are/our-team.html">
+                            Our Team
+                          </a>
+                          <p>Managing team and partner consultants</p>
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!--
+            <li class="nav-item">
+              <a class="nav-link px-4 text-white" href="#" aria-haspopup="true" aria-expanded="false">
+                Resources
+              </a>
+            </li>
+            -->
+
+            <li class="nav-item">
+              <a class="nav-link px-4 text-white" href="/join-us/index.html" aria-haspopup="true" aria-expanded="false">
+                Join Us
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white" id="navbarDocumentation" href="/contact.html" aria-haspopup="true" aria-expanded="false">
+                Connect With Us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <section class="container pt-11">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">WHAT WE DO</a></li>
+	  <li class="breadcrumb-item active" aria-current="page">TEAM ACCELERATION</li>
+        </ol>
+      </nav>
+    </section>
+
+    <!-- WELCOME
+    ================================================== -->
+    <section class="py-3">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-5 order-md-2">
+            <img src="../assets/img/boxd/what-we-do/team-acceleration/Startup _Monochromatic.png" class="img-fluid w-100" alt="..." data-aos="fade-up" data-aos-delay="100">
+          </div>
+
+          <div class="col-12 col-lg-7 order-md-1" data-aos="fade-up">
+            <h1 class="display-4 text-center text-md-left font-weight-bold">
+              Transform groups of people in high-performing teams
+            </h1>
+	    <p>
+	      We know there is no one-size-fits-all approach to designing a high-performing team. But we also know that strong teams have a few key things in common: shared purpose, clear roles aligned to people's strengths, and the ability to embrace healthy conflict and diverse perspectives.
+	    </p>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 text-center" data-aos="fade-up">
+            <h2 class="display-6 font-weight-bold">Tailored workshops to accelerate the performance of:</h2>
+	    <ul class="text-left">
+	      <li>New teams</li>
+	      <li>Distributed teams</li>
+	      <li>New or evolving leadership teams</li>
+	      <li>Teams with a new leader</li>
+	      <li>Teams affected by a reorganization</li>
+	      <li>Mission-critical teams</li>
+	      <li>Teams with challenging dynamics</li>
+	    </ul>
+	  </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+    <section id="organization-design" class="py-9">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center" data-aos="fade-up">
+            <h1 class="display-4 font-weight-bold">To unlock your team's performance, we offer a series of tailored modules to meet your unique needs.</h1>
+	  </div>
+        </div>
+
+	<div class="row">
+          <div class="col-12 col-lg-4 col my-3" data-aos="fade-up">
+            <p>Team Challenges:</p>
+          </div>
+        </div>
+
+	<div id="team-challenges" class="row text-center rounded-lg">
+          <div class="d-flex align-items-center justify-content-center col-12 col-lg-3 my-3" data-aos="fade-up">
+            <p>New Teams</p>
+          </div>
+          <div class="d-flex align-items-center justify-content-center col-12 col-lg-3 my-3" data-aos="fade-up">
+            <p>Established Teams who Want Team Performance</p>
+          </div>
+          <div class="d-flex align-items-center justify-content-center col-12 col-lg-3 my-3" data-aos="fade-up">
+            <p>New or Evolving Leadership Teams</p>
+          </div>
+          <div class="d-flex align-items-center justify-content-center col-12 col-lg-3 my-3" data-aos="fade-up">
+            <p>Teams with a New Leader</p>
+          </div>
+          <div class="d-flex align-items-center justify-content-center col-12 col-lg-3 my-3" data-aos="fade-up">
+            <p>Teams Affected by Reorganizations </p>
+          </div>
+          <div class="d-flex align-items-center justify-content-center col-12 col-lg-3 my-3" data-aos="fade-up">
+            <p>Strategic Project Teams</p>
+          </div>
+          <div class="d-flex align-items-center justify-content-center col-12 col-lg-3 my-3" data-aos="fade-up">
+            <p>Teams with Challenging Dynamics</p>
+          </div>
+          <div class="d-flex align-items-center justify-content-center col-12 col-lg-3 my-3" data-aos="fade-up">
+            <p class="rounded-pill px-9 py-3 bg-secondary text-white">All</p>
+          </div>
+        </div>
+
+	<div class="row">
+          <div class="col-12 col-lg-4 col my-3" data-aos="fade-up">
+            <p>Here are our most popular "recipes" for team success:</p>
+          </div>
+        </div>
+
+	<div id="team-recipes" class="row text-center rounded-lg">
+          <div class="col-12 col-lg-3 my-3" data-aos="fade-up">
+            <div class="recipe">
+              <div>Team Foundations</div>
+              <div>Learn More</div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 my-3" data-aos="fade-up">
+            <div class="recipe">
+              <div>Role Clarification</div>
+              <div>Learn More</div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 my-3" data-aos="fade-up">
+            <div class="recipe">
+              <div>Work Your Strength</div>
+              <div>Learn More</div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 my-3" data-aos="fade-up">
+            <div class="recipe">
+              <div>Purpose Value and Action</div>
+              <div>Learn More</div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 my-3" data-aos="fade-up">
+            <div class="recipe">
+              <div>Team Behavior Coaching</div>
+              <div>Learn More</div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 my-3" data-aos="fade-up">
+            <div class="recipe">
+              <div>New Leader Integration</div>
+              <div>Learn More</div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 my-3" data-aos="fade-up">
+            <div class="recipe">
+              <div>X-Team Design</div>
+              <div>Learn More</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center" data-aos="fade-up">
+            <h2 class="display-6 font-weight-bold">Need a fully-cutomized solution for your team?</h2>
+	    <a href="#" class="px-10 btn btn-primary">Let's talk!</a>
+	  </div>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <section id="strategic-meetings" class="py-9">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center" data-aos="fade-up">
+            <h2 class="display-6 font-weight-bold">How we accelerate your team's performance</h2>
+	  </div>
+        </div>
+
+	<div class="row">
+          <div class="col-12 col-lg-4 col mb-3" data-aos="fade-up">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="../assets/img/boxd/what-we-do/team-acceleration/Outcomes.svg" data-aos="fade-up" data-aos-delay="100">
+                <h1>Anchored to business outcomes</h1>
+		<p>We never do team building for team building's sake. We build teams to get results, and we do it by getting work done together and having critical conversations. No marshmallow towers or rope courses-- we promise.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 col mb-3" data-aos="fade-up">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="../assets/img/boxd/what-we-do/team-acceleration/Behaviors.svg" data-aos="fade-up" data-aos-delay="100">
+                <h1>Focus on behaviors, not frameworks</h1>
+                <p>We ground our workshops in research, and we keep you focused on shared understanding and behaviors to drive change.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 col mb-3" data-aos="fade-up">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="../assets/img/boxd/what-we-do/team-acceleration/Facilitation.png" data-aos="fade-up" data-aos-delay="100">
+                <h1>Available online or in-person</h1>
+		<p>We can facilitate your team through workshops in person or online. Our team has over 250 years of combined experience successfully working in and leading distributed teams. Your excellence does not have to be limited by geographic borders.</p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <section id="strategic-meetings" class="py-9">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center" data-aos="fade-up">
+            <h1 class="display-4 font-weight-bold">What goes into a high-performing team?</h1>
+
+	    <div class="my-10 embed-responsive embed-responsive-16by9" data-aos="fade-up">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IwgVUVZkr1M" allowfullscreen></iframe>
+	    </div>
+	  </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- QUOTE
+    ================================================== -->
+    <section class="py-6 bg-gray-200">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12">
+
+            <!-- Heading -->
+            <h2 class="font-italic">
+              "Nenuca excels at creating an <b>engaging, productive experience for a new leadership team</b> that really brings the team together.  Prior to a session, she works closely with the host to determine the need, conducts interviews with the team to get the lay of the land and uses this information to help build a great working session.  She <b>customizes everything</b> to fit the needs of the group. She <b>keeps the team on target</b> and <b>moving in the right direction</b>."
+	    </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-gray-700 mb-6 text-right">
+              Senior Financial Leader, Fortune 500 Technology Company
+            </p>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <section id="strategic-meetings" class="pt-10">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center" data-aos="fade-up">
+            <h2 class="display-6 font-weight-bold">Ready to find out how you can unlock your team's potential?</h2>
+	    <a href="/contact.html" class="px-10 btn btn-primary">Let's Connect</a>
+	  </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative pt-10">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>
+      </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    <footer class="py-8 py-md-11 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-3">
+        
+            <!-- Brand -->
+            <h1 class="text-white font-weight-bold">BOxD</h1>
+
+          </div>
+          <div class="col-6 col-md-3">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              What We Solve For
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="../what-we-solve/culture-and-transformation.html" class="text-reset">
+    	      Culture and Transformation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-solve/scalable-organizations.html" class="text-reset">
+                  Scalable Organizations
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-solve/diversity-equity-and-inclusion.html" class="text-reset">
+    	      Diversity, Equity and Inclusion
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-solve/new-leader-integration.html" class="text-reset">
+    	      New Leader Integration
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-md-3">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              What We Do
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="../what-we-do/strategic-meeting-design-and-facilitation.html" class="text-reset">
+                  Strategic Meeting Design and Facilitation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-do/organization-design.html" class="text-reset">
+                  Organization Design
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-do/team-acceleration.html" class="text-reset">
+                  Team Acceleration
+                </a>
+              </li>
+              <li>
+                <a href="../what-we-do/leader-development.html" class="text-reset">
+                  Executive and Leader Development
+                </a>
+              </li>
+              <li>
+                <a href="../what-we-do/discovery-and-insights.html" class="text-reset">
+                  Discovery and Insights
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="col-6 col-md-3">
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Who We Are
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="../who-we-are/about-us.html" class="text-reset">
+                  About Us
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../who-we-are/our-team.html" class="text-reset">
+                  Our Team
+                </a>
+              </li>
+            </ul>
+
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Legal
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="../terms-of-service.html" class="text-reset">
+                  Terms of Service
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../privacy-policy.html" class="text-reset">
+                  Privacy Policy
+                </a>
+              </li>
+            </ul>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
+
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="../assets/libs/aos/dist/aos.js"></script>
+    <script src="../assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="../assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="../assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="../assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="../assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="../assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="../assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="../assets/libs/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="../assets/libs/quill/dist/quill.min.js"></script>
+    <script src="../assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="../assets/libs/typed.js/lib/typed.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HGTNRWF5F2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-HGTNRWF5F2');
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000"
+          },
+          "button": {
+            "background": "#f1d600"
+          }
+        },
+        "theme": "classic"
+      });
+    </script>
+
+
+  </body>
+</html>

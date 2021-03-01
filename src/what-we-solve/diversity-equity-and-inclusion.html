@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("../partials/head.html", {
+    "pageTitle": "BOxD | Better Organizations by Design"
+    })
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("../partials/modals.html")
+
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("../partials/navbar.html", {
+    "classList": "navbar-light bg-primary",
+    "container": "container",
+    "button": "primary"
+    })
+
+    <section class="container pt-11">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">WHAT WE SOLVE FOR</a></li>
+          <li class="breadcrumb-item active" aria-current="page">DIVERSITY, EQUITY AND INCLUSION</li>
+        </ol>
+      </nav>
+    </section>
+
+    <!-- WELCOME
+    ================================================== -->
+    <section class="py-2">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-7 order-md-1" data-aos="fade-up">
+            <h1 class="display-4 text-center text-md-left font-weight-bold">
+              Turn dialogue into action: DEI that's more than just lip service
+            </h1>
+	    <p>
+	      We help companies design enduring systems for inclusion. At BOxD, we go beyond bias training to build sustainable, systems-level solutions for enabling inclusive work environments. With decades of combined expertise in Diversity, Equity and Inclusion, we offer a full DEI solution to companies looking to cultivate an inclusive workplace with intention.
+	    </p>
+          </div>
+
+          <div class="col-12 col-md-5 order-md-2">
+            <img src="@@webRoot/assets/img/boxd/diversity-equity-and-inclusion-page/Diversity _Monochromatic.png" class="img-fluid w-100" alt="..." data-aos="fade-up" data-aos-delay="100">
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <section id="together-we-can" class="py-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-7 order-md-2" data-aos="fade-up">
+            <h1 class="display-4 text-center text-md-left font-weight-bold">
+              Together We Can...
+            </h1>
+
+	    <div class="together-we-can-point">
+              <img src="@@webRoot/assets/img/boxd/diversity-equity-and-inclusion-page/Asses.png" class="mr-3" style="width: 30px;" />Assess the current state of diversity, equity and inclusion <br />in your organization
+	    </div>
+
+	    <div class="together-we-can-point">
+	      <img src="@@webRoot/assets/img/boxd/diversity-equity-and-inclusion-page/Roadmap.png" class="mr-3" style="width: 30px;" />Create a strategic roadmap for DEI implementation
+	    </div>
+
+	    <div class="together-we-can-point">
+	      <img src="@@webRoot/assets/img/boxd/diversity-equity-and-inclusion-page/Capabilities.png" class="mr-3" style="width: 30px;" />Build capabilities across your company to execute <br />an effective DEI strategy
+	    </div>
+
+	    <div class="together-we-can-point">
+	      <img src="@@webRoot/assets/img/boxd/diversity-equity-and-inclusion-page/Diversity.png" class="mr-3" style="width: 30px;" />Enable your teams and leaders to make better, faster decisions by harnessing the power of diversity
+	    </div>
+
+	    <div class="together-we-can-point">
+	      <img src="@@webRoot/assets/img/boxd/diversity-equity-and-inclusion-page/Independence.png" class="mr-3" style="width: 30px;" /> Empower you with the skills and tools to continue the work long after our team is gone
+	    </div>
+          </div>
+
+          <div class="col-12 col-md-5 order-md-1">
+            <img src="@@webRoot/assets/img/boxd/diversity-equity-and-inclusion-page/Team Meeting_Monochromatic (3).png" class="img-fluid w-100" alt="..." data-aos="fade-up" data-aos-delay="100">
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    @@include("@@webRoot/what-we-solve/partials/contact-form.html")
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        @@include("@@webRoot/assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    @@include("../partials/footer.html", {
+    "classList": "bg-dark"
+    })
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("../partials/scripts.html")
+
+  </body>
+</html>

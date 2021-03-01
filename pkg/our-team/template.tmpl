@@ -1,0 +1,43 @@
+{{define "members"}}
+  {{range $member := $.Members}}
+        <div class="col-12 col-md-4 p-4 p-md-8">
+          <a data-toggle="modal" data-target="#{{$member.Slug}}" href="#">
+            <img class="w-100 rounded-pill img-thumbnail" src="/who-we-are/assets/team/{{$member.Slug}}.jpg">
+          </a>
+          <div class="pt-3 text-center">
+            <h3 class="font-weight-bold">
+              {{$member.FirstName}} {{$member.LastName}}
+            </h3>
+          </div>
+          <div class="pt-3 text-center">
+            <h5 class="font-weight-bold">
+              {{$member.Position}}
+            </h5>
+          </div>
+        </div>
+  {{end}}
+{{end}}
+
+
+{{define "modals"}}
+  {{range $member := $.Members}}
+    <div id="{{$member.Slug}}" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-center">
+              {{$member.FirstName}} {{$member.LastName}}
+            </h3>
+          </div>
+          <div class="modal-body">
+            {{range $line := $member.Bio}}
+              <p>
+                {{$line}}
+              </p>
+            {{end}}
+          </div>
+        </div>
+      </div>
+    </div>
+  {{end}}
+{{end}}

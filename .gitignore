@@ -1,0 +1,11 @@
+.DS_Store
+debug.log
+node_modules/
+src/.tmp/
+
+*.sw?
+
+# Local Netlify folder
+.netlify
+
+/elm/elm-stuff

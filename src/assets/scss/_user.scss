@@ -1,0 +1,89 @@
+// 
+// user.scss
+// Use this to write your custom SCSS
+//
+
+@font-face {
+	font-family: "FormaDJR";
+	src: url("/assets/fonts/FormDJR/FormaDJRText-Regular-Edu.otf");
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Poppins-Light";
+	src: url("/assets/fonts/Poppins/Poppins-Light.ttf");
+}
+
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+	font-family: "FormaDJR";
+}
+
+#together-we-can {
+	.together-we-can-point {
+		margin: 15px 0px 15px 30px;
+
+		img {
+			position: absolute;
+			left: 10px;
+			width: 30px;
+		}
+	}
+}
+
+#strategic-meetings {
+	.card {
+		background-color: #d9d9d9;
+
+		.card-body {
+			img { height: 100px; }
+
+			h1 {
+				font-size: 25px;
+				font-family: "FormaDJR";
+				color: $primary;
+			}
+		}
+	}
+}
+
+#organization-design {
+	img { width: 100px; }
+}
+
+#team-challenges {
+	background-color: gray;
+}
+
+#team-recipes {
+	.recipe {
+		border-top-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+		background-color: gray;
+
+		div:first-child {
+			display: flex;
+			justify-content: center;
+			align-items: middle;
+			height: 75px;
+			padding: 10px;
+			border-top-left-radius: 8px;
+			background-color: #660e51;
+			color: white;
+			border-bottom-right-radius: 8px;
+		}
+	}
+}
+
+.navbar-brand-img {
+	max-height: 60px;
+}

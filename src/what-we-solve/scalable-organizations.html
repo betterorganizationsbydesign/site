@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("../partials/head.html", {
+    "pageTitle": "BOxD | Better Organizations by Design"
+    })
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("../partials/modals.html")
+
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("../partials/navbar.html", {
+    "classList": "navbar-light bg-primary",
+    "container": "container",
+    "button": "primary"
+    })
+
+    <section class="container pt-11">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">WHAT WE SOLVE FOR</a></li>
+          <li class="breadcrumb-item active" aria-current="page">SCALABLE ORGANIZATIONS</li>
+        </ol>
+      </nav>
+    </section>
+
+    <!-- WELCOME
+    ================================================== -->
+    <section class="py-2">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-5 order-md-2">
+
+            <!-- Image -->
+            <img src="@@webRoot/assets/img/boxd/scalable-organizations-page/Achievement _Monochromatic.png" class="img-fluid w-100" alt="..." data-aos="fade-up" data-aos-delay="100">
+
+          </div>
+
+          <div class="col-12 col-lg-7 order-md-1" data-aos="fade-up">
+            <h1 class="display-4 text-center text-md-left font-weight-bold">
+              Build organizations ready for rapid growth
+            </h1>
+
+	    <p>
+	      Your organization is growing. The pile of work never seems to go down, while internal resources and clarity are in short supply. As your business grows, your organization has to scale with it.
+	    </p>
+
+	    <p>
+	      At BOxD, we can help you align your priorities with your startegy in order to grow your business as fast as your customers and investors want you to.
+	    </p>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <section id="together-we-can" class="py-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-7 order-md-2" data-aos="fade-up">
+            <h1 class="display-4 text-center text-md-left font-weight-bold">
+              Together We Can...
+            </h1>
+
+	    <div class="together-we-can-point">
+	      <img src="@@webRoot/assets/img/boxd/scalable-organizations-page/Org.png" class="mr-3" style="width: 30px;" />Identify the organizational capabilities needed to scale your business
+	    </div>
+
+	    <div class="together-we-can-point">
+	      <img src="@@webRoot/assets/img/boxd/scalable-organizations-page/Value.png" class="mr-3" style="width: 30px;" />
+	      Solidify a culture that reinforces your strategy 
+	      <br />
+	      and strengthens accountability
+	    </div>
+
+	    <div class="together-we-can-point">
+	      <img src="@@webRoot/assets/img/boxd/scalable-organizations-page/Behavior.png" class="mr-3" style="width: 30px;" />Redesign roles and processes to unlock new efficiencies <br />and accelerate decision making
+	    </div>
+
+	    <div class="together-we-can-point">
+	      <img src="@@webRoot/assets/img/boxd/scalable-organizations-page/Leader.png" class="mr-3" style="width: 30px;" />Develop your leaders to navigate uncertainty and <br />complexity in your business context
+	    </div>
+
+	    <div class="together-we-can-point">
+	      <img src="@@webRoot/assets/img/boxd/scalable-organizations-page/Distributed Work.png" class="mr-3" style="width: 30px;" />Scale your workforce across locations without sacrificing your <br />culture and business results.
+	    </div>
+          </div>
+
+          <div class="col-12 col-lg-5 order-md-1">
+            <img src="@@webRoot/assets/img/boxd/culture-and-transformation-page/Team Meeting_Monochromatic (3).png" class="img-fluid w-100" alt="..." data-aos="fade-up" data-aos-delay="100">
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    @@include("@@webRoot/what-we-solve/partials/contact-form.html")
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        @@include("@@webRoot/assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    @@include("../partials/footer.html", {
+    "classList": "bg-dark"
+    })
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("../partials/scripts.html")
+
+  </body>
+</html>

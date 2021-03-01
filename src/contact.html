@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", {
+    "pageTitle": "BOxD | Better Organizations by Design"
+    })
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
+
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("partials/navbar.html", {
+    "classList": "navbar-light bg-primary",
+    "container": "container",
+    "button": "primary"
+    })
+
+    <!-- CONTENT
+    ================================================== -->
+    <section class="pt-5">
+     
+      <!-- Content -->
+      <div class="container d-flex flex-column">
+        <div class="row align-items-center justify-content-between no-gutters min-vh-100">
+          <div class="col-12 col-md-5 align-self-stretch">
+
+            <!-- Image (mobile)
+            <img src="assets/img/boxd/contact-us.png" class="d-md-none img-cover" alt="...">
+            -->
+
+            <!-- Image -->
+            <div class="d-none d-md-block vw-50 h-100 float-right bg-cover" style="background-image: url(assets/img/boxd/contact-us.png);"></div>
+
+          </div>
+          <div class="col-12 col-md-6 py-8 py-md-11">
+           
+            <!-- Heading -->
+            <h2 class="font-weight-bold text-center mb-2">
+              Contact us for anything.
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-center text-muted mb-0">
+              Our goal is to be as helpful as possible.
+            </p>
+
+            <!-- Divider -->
+            <hr class="hr-sm my-6 my-md-8 border-gray-300">
+
+            <!-- Form -->
+            <div id="contact-form"></div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div>
+    </section>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+
+    <script src="@@webRoot/assets/boxd/ContactForm.js"></script>
+    <script>
+      var app = Elm.ContactForm.init({
+        flags: "",
+        node: document.getElementById('contact-form')
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("../partials/head.html", {
+      "pageTitle": "Landkit"
+    })
+  </head>
+  <body class="bg-light" style="padding-top: 84px;">
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("../partials/modals.html")
+
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("../partials/navbar.html", {
+      "classList": "navbar-light fixed-top bg-white border-bottom",
+      "container": "container-fluid",
+      "button": "primary"
+    })
+
+    <button class="btn btn-primary" data-toggle="modal" data-target="#modalExample">
+      Launch demo modal
+    </button>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("../partials/scripts.html")
+      
+  </body>
+</html>
