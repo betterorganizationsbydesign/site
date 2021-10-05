@@ -1,8 +1,5 @@
 default: build
 	gulp build
-	git add .
-	git commit --amend -C HEAD
-	git push -f
 
 .PHONY: elm
 elm:
