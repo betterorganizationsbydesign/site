@@ -1,74 +1,158 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    @@include("partials/head.html", {
-    "pageTitle": "BOxD | Better Organizations by Design"
-    })
-  </head>
-  <body>
 
-    <!-- MODALS
+<head>
+  @@include("partials/head.html", {
+  "pageTitle": "BOxD | Better Organizations by Design"
+  })
+</head>
+
+<body>
+
+  <!-- MODALS
     ================================================== -->
-    @@include("partials/modals.html")
+  @@include("partials/modals.html")
 
-    <!-- NAVBAR
+  <!-- NAVBAR
     ================================================== -->
-    @@include("partials/navbar.html", {
-    "classList": "navbar-light bg-primary",
-    "container": "container",
-    "button": "primary"
-    })
+  @@include("partials/navbar.html", {
+  "classList": "navbar-light bg-primary",
+  "container": "container",
+  "button": "primary"
+  })
 
-    <!-- CONTENT
+  <!-- CONTENT
     ================================================== -->
-    <section class="pt-5">
-     
-      <!-- Content -->
-      <div class="container d-flex flex-column">
-        <div class="row align-items-center justify-content-between no-gutters min-vh-100">
-          <div class="col-12 col-md-5 align-self-stretch">
+  <section class="pt-5">
 
-            <!-- Image (mobile)
+    <!-- Content -->
+    <div class="container d-flex flex-column">
+      <div class="row align-items-center justify-content-between no-gutters min-vh-100">
+        <div class="col-12 col-md-5 align-self-stretch">
+
+          <!-- Image (mobile)
             <img src="assets/img/boxd/contact-us.png" class="d-md-none img-cover" alt="...">
             -->
 
-            <!-- Image -->
-            <div class="d-none d-md-block vw-50 h-100 float-right bg-cover" style="background-image: url(assets/img/boxd/contact-us.png);"></div>
+          <!-- Image -->
+          <div class="d-none d-md-block vw-50 h-100 float-right bg-cover"
+            style="background-image: url(assets/img/boxd/contact-us.png);"></div>
 
-          </div>
-          <div class="col-12 col-md-6 py-8 py-md-11">
-           
-            <!-- Heading -->
-            <h2 class="font-weight-bold text-center mb-2">
-              Contact us for anything.
-            </h2>
+        </div>
+        <div class="col-12 col-md-6 py-8 py-md-11">
 
-            <!-- Text -->
-            <p class="font-size-lg text-center text-muted mb-0">
-              Our goal is to be as helpful as possible.
-            </p>
+          <!-- Heading -->
+          <h2 class="font-weight-bold text-center mb-2">
+            Contact us for anything.
+          </h2>
 
-            <!-- Divider -->
-            <hr class="hr-sm my-6 my-md-8 border-gray-300">
+          <!-- Text -->
+          <p class="font-size-lg text-center text-muted mb-0">
+            Our goal is to be as helpful as possible.
+          </p>
 
-            <!-- Form -->
-            <div id="contact-form"></div>
+          <!-- Divider -->
+          <hr class="hr-sm my-6 my-md-8 border-gray-300">
 
-          </div>
-        </div> <!-- / .row -->
-      </div>
-    </section>
+          <!-- Form -->
+          <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true"
+            data-netlify-recaptcha="true">
+            <div class="row">
+              <div class="col-12">
+                <div class="form-group">
+                  <label for="fullName">Full name*</label><input name="fullname" class="form-control" id="fullName"
+                    placeholder="Enter your full name" type="text" required="" style="
+                        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==');
+                        background-repeat: no-repeat;
+                        background-attachment: scroll;
+                        background-size: 16px 18px;
+                        background-position: 98% 50%;
+                      " />
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="form-group">
+                  <label for="phone">Phone*</label><input class="form-control" name="phone_number" id="phone"
+                    placeholder="Enter your phone" type="text" required="" />
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="form-group">
+                  <label for="email">Email*</label><input name="email" class="form-control" id="contactName"
+                    placeholder="Enter your email" type="email" required="" />
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="form-group">
+                  <label for="company">Company*</label><input name="company_name" class="form-control" id="contactName"
+                    placeholder="Enter your company" type="text" required="" />
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="form-group">
+                  <label for="contactName">Position*</label><input name="position" class="form-control" id="contactName"
+                    placeholder="Enter your position" type="text" required="" />
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="form-group">
+                  <label for="contactName">No. of employees</label><select name="no_employees" class="form-control">
+                    <option disabled="">Select an option</option>
+                    <option>1-50 employees</option>
+                    <option>51-200 employees</option>
+                    <option>201-500 employees</option>
+                    <option>501-1000 employees</option>
+                    <option>1001-5000 employees</option>
+                    <option>5001-10,000 employees</option>
+                    <option>10,001+ employees</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="form-group">
+                  <label for="contactName">How did you hear about us?</label><select name="referral"
+                    class="form-control">
+                    <option disabled="">Select an option</option>
+                    <option>Search Engine</option>
+                    <option>Google</option>
+                    <option>Facebook</option>
+                    <option>YouTube</option>
+                    <option>LinkedIn</option>
+                    <option>Twitter</option>
+                    <option>Instagram</option>
+                    <option>Other social media</option>
+                    <option>Email</option>
+                    <option>Word of mouth</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <label for="contactName">Message</label><textarea name="message" class="form-control"
+                    id="contactMessage" placeholder="Tell us what we can help you with!" rows="5"></textarea>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group mb-0">
+                  <button type="submit" class="btn btn-block btn-primary lift bg-secondary">
+                    Send message
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
 
-    <!-- JAVASCRIPT
+        </div>
+      </div> <!-- / .row -->
+    </div>
+  </section>
+
+  <!-- JAVASCRIPT
     ================================================== -->
-    @@include("partials/scripts.html")
+  @@include("partials/scripts.html")
 
-    <script src="@@webRoot/assets/boxd/ContactForm.js"></script>
-    <script>
-      var app = Elm.ContactForm.init({
-        flags: "",
-        node: document.getElementById('contact-form')
-      });
-    </script>
-  </body>
+  <script src="@@webRoot/assets/boxd/ContactForm.js"></script>
+</body>
+
 </html>
