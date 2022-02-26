@@ -211,11 +211,12 @@
             </li>
             -->
             <li class="nav-item dropdown">
-              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#"
-                aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block on-resources-click"
+                data-toggle="dropdown" href="../resources/" aria-haspopup="true" aria-expanded="false">
                 Resources
               </a>
-              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+              <a class="nav-link px-4 dropdown-toggle d-lg-none on-resources-click" aria-expanded="false"
+                href="../resources/">
                 Resources
               </a>
               <div class="dropdown-menu dropdown-menu-md p-0" aria-labelledby="navbarLandings">
@@ -253,6 +254,12 @@
         </div>
       </div>
     </nav>
+
+    <script>
+      document.querySelector('.on-resources-click').addEventListener('click', function () {
+        window.location.href = '/resources/'
+      })
+    </script>
 
     <section class="container pt-11">
       <nav aria-label="breadcrumb">
