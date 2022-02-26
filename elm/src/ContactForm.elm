@@ -8,7 +8,6 @@ import Http
 import Json.Encode
 
 
-
 -- MAIN
 
 
@@ -142,7 +141,7 @@ form model =
                 ]
             , div [ class "col-12" ]
                 [ div [ class "form-group mb-0" ]
-                    [ button [ class "btn btn-block btn-primary lift bg-secondary" ]
+                    [ button [ class "btn btn-block btn-primary lift bg-secondary form-submit-btn" ]
                         [ text "Send message" ]
                     ]
                 ]

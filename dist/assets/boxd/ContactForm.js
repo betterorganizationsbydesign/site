@@ -5945,7 +5945,7 @@ var $author$project$ContactForm$form = function (model) {
 										$elm$html$Html$button,
 										_List_fromArray(
 											[
-												$elm$html$Html$Attributes$class('btn btn-block btn-primary lift bg-secondary')
+												$elm$html$Html$Attributes$class('btn btn-block btn-primary lift bg-secondary form-submit-btn')
 											]),
 										_List_fromArray(
 											[
