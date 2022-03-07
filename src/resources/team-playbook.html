@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    @@include("./partials/head.html", {
+    @@include("../partials/head.html", {
     "pageTitle": "BOxD | Better Organizations by Design"
     })
 </head>
@@ -31,11 +31,11 @@
 
     <!-- MODALS
     ================================================== -->
-    @@include("./partials/modals.html")
+    @@include("../partials/modals.html")
 
     <!-- NAVBAR
     ================================================== -->
-    @@include("./partials/navbar.html", {
+    @@include("../partials/navbar.html", {
     "classList": "navbar-light bg-primary",
     "container": "container",
     "button": "primary"
@@ -75,7 +75,7 @@
                                 your business today.</b>
                         </p>
                     </div>
-                    <a href="#" class="btn"
+                    <a href="@@webRoot/assets/img/playbook/DesignTeam-BOxD_TeamPlaybook_20220303-1.pdf" class="btn"
                         style="background-color: #660E51; color: white; text-align: center; padding: 5px 50px; width: 100%;">
                         <b>Download PDF</b><br>(23 pages)
                     </a>
@@ -84,11 +84,7 @@
                         SHARE THIS TOOL WITH A FELLOW LEADER
                     </p>
                     <div class="d-flex flex-col">
-                        <a href="#"><img class="img-fluid mr-4" style="width: 47px;"
-                                src="@@webRoot/assets/img/playbook/facebook.png"></img></a>
-                        <a href="#"><img class="img-fluid mr-4" style="width: 47px;"
-                                src="@@webRoot/assets/img/playbook/twitter.png"></img></a>
-                        <a href="#"><img class="img-fluid" style="width: 47px;"
+                        <a href="https://www.linkedin.com/company/boxd-us/"><img class="img-fluid" style="width: 47px;"
                                 src="@@webRoot/assets/img/playbook/linkedin.png"></img></a>
                     </div>
                 </div> <!-- / .row -->
@@ -99,19 +95,19 @@
     ================================================== -->
     <div class="position-relative pt-10">
         <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
-            @@include("./assets/img/shapes/curves/curve-1.svg")
+            @@include("../assets/img/shapes/curves/curve-1.svg")
         </div>
     </div>
 
     <!-- FOOTER
     ================================================== -->
-    @@include("./partials/footer.html", {
+    @@include("../partials/footer.html", {
     "classList": "bg-dark"
     })
 
     <!-- JAVASCRIPT
     ================================================== -->
-    @@include("./partials/scripts.html")
+    @@include("../partials/scripts.html")
 
 </body>
 
