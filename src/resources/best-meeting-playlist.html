@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    @@include("../partials/head.html", {
+    "pageTitle": "BOxD | Better Organizations by Design"
+    })
+</head>
+
+<style>
+    .img-inline-css {
+        width: 60% !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .img-inline-css {
+            width: 100% !important;
+        }
+    }
+
+    .on-hover-res {
+        box-shadow: 0 0 2px #ccc;
+    }
+
+    .on-hover-res:hover {
+        box-shadow: 0 0 15px #ccc;
+    }
+</style>
+
+<body>
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("../partials/modals.html")
+
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("../partials/navbar.html", {
+    "classList": "navbar-light bg-primary",
+    "container": "container",
+    "button": "primary"
+    })
+
+    <section class="py-5 pt-12">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-8 order-md-2">
+                    <img src="@@webRoot/assets/img/resources/best-meeting-evet.png" class="img-fluid w-100"
+                        alt="..." data-aos="fade-up" data-aos-delay="100">
+                </div>
+
+                <div class="col-12 col-lg-4 order-md-1 mt-4" data-aos="fade-up">
+                    <h1 class="display-4 text-center text-md-left font-weight-bold"
+                        style="color: #b3324f; font-weight: bold;">
+                        Best Meeting Ever - Playlist
+                    </h1>
+                    <div style="font-size: 15px; margin-bottom: 10px;">
+                        <p>
+                            As a leader, you are consistently expected to
+                            deliver <b>more results</b> with <b>fewer resources.</b>
+                        </p>
+                        <p>
+                            Although you see the value in teambuilding, the last thing
+                            you have time for is an all-day workshop.
+                        </p>
+                        <p>
+                            That’s why we put together a <b>practical guide</b> with
+                            <b>quick references</b> to show you what a healthy team looks like,
+                            including ready-to-use tools and templates to address
+                            the most common challenges we hear from our clients.
+                        </p>
+                        <p>
+                            Are you ready to deliver better results–together?
+                            <b>Download our free team playbook to supercharge
+                                your business today.</b>
+                        </p>
+                    </div>
+                    <a href="@@webRoot/assets/img/playbook/DesignTeam-BOxD_TeamPlaybook_20220303-1.pdf" class="btn"
+                        style="background-color: #660E51; color: white; text-align: center; padding: 5px 50px; width: 100%;">
+                        <b>Download PDF</b><br>(23 pages)
+                    </a>
+                    <p
+                        style="color: #660E51; font-weight: bold; font-size: 12px; margin-top: 30px; margin-bottom: 5px;">
+                        SHARE THIS TOOL WITH A FELLOW LEADER
+                    </p>
+                    <div class="d-flex flex-col">
+                        <a href="https://www.linkedin.com/company/boxd-us/"><img class="img-fluid" style="width: 47px;"
+                                src="@@webRoot/assets/img/playbook/linkedin.png"></img></a>
+                    </div>
+                </div> <!-- / .row -->
+            </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative pt-10">
+        <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+            @@include("../assets/img/shapes/curves/curve-1.svg")
+        </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    @@include("../partials/footer.html", {
+    "classList": "bg-dark"
+    })
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("../partials/scripts.html")
+
+</body>
+
+</html>
