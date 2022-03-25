@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="../assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="../assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="../assets/libs/choices.js/public/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="../assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="../assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="../assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="../assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="../assets/libs/quill/dist/quill.core.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../assets/css/theme.min.css">
+
+    <title>BOxD | Better Organizations by Design</title>
+
+    <link rel="icon" href="../assets/img/boxd/favicon.webp" sizes="32x32" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+</head>
+
+<style>
+    .img-inline-css {
+        width: 60% !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .img-inline-css {
+            width: 100% !important;
+        }
+    }
+
+    .on-hover-res {
+        box-shadow: 0 0 2px #ccc;
+    }
+
+    .on-hover-res:hover {
+        box-shadow: 0 0 15px #ccc;
+    }
+</style>
+
+<body>
+
+    <!-- MODALS
+    ================================================== -->
+    <!-- Example -->
+    <div class="modal" id="modalExample" tabindex="-1" role="dialog" aria-labelledby="modalExampleTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+    	      <h1>Hello!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow py-lg-3 py-1 navbar-light bg-primary">
+      <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/img/boxd/boxd-logo.png" class="navbar-brand-img" alt="...">
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+
+          <!-- Navigation -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#"
+                aria-haspopup="true" aria-expanded="false">
+                What We Solve For
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                What We Solve For
+              </a>
+              <div class="dropdown-menu dropdown-menu-md p-0" aria-labelledby="navbarLandings">
+                <div class="row no-gutters">
+                  <div class="col-12">
+                    <div class="dropdown-body">
+                      <div class="row no-gutters">
+                        <div class="col-12">
+                          <!-- List -->
+                          <a class="font-weight-bold dropdown-item text-secondary"
+                            href="../what-we-solve/culture-and-transformation.html">
+                            Culture and Transformation
+                          </a>
+                          <p>Match your culture to your strategy to accelerate performance.</p>
+
+                          <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary"
+                            href="../what-we-solve/scalable-organizations.html">
+                            Scalable Organizations
+                          </a>
+                          <p>Build organizations ready for rapid growth.</p>
+
+                          <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary"
+                            href="../what-we-solve/diversity-equity-and-inclusion.html">
+                            Diversity, Equity and Inclusion
+                          </a>
+
+                          <p>Go beyond bias training to make lasting change.</p>
+
+                          <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary"
+                            href="../what-we-solve/new-leader-integration.html">
+                            New Leader Integration
+                          </a>
+
+                          <p class="mb-0">Unlock leadership potential to unlock limitless impact.</p>
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#"
+                aria-haspopup="true" aria-expanded="false">
+                What We Do
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                What We Do
+              </a>
+              <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarPages">
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <div class="row no-gutters">
+                      <div class="col-12">
+                        <a class="font-weight-bold dropdown-item text-secondary"
+                          href="../what-we-do/strategic-meeting-design-and-facilitation.html">
+                          Strategic Meeting Design and Facilitation
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary"
+                          href="../what-we-do/organization-design.html">
+                          Organization Design
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary"
+                          href="../what-we-do/team-acceleration.html">
+                          Team Acceleration
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary"
+                          href="../what-we-do/leader-development.html">
+                          Executive and Leader Development
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary"
+                          href="../what-we-do/discovery-and-insights.html">
+                          Discovery and Insights
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#"
+                aria-haspopup="true" aria-expanded="false">
+                Who We Are
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                Who We Are
+              </a>
+              <div class="dropdown-menu dropdown-menu-md p-0" aria-labelledby="navbarLandings">
+                <div class="row no-gutters">
+                  <div class="col-12">
+                    <div class="dropdown-body">
+                      <div class="row no-gutters">
+                        <div class="col-12">
+                          <!-- List -->
+                          <a class="font-weight-bold dropdown-item text-secondary"
+                            href="../who-we-are/about-us.html">
+                            About Us
+                          </a>
+                          <p>Our mission, vision and who we are</p>
+
+                          <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary"
+                            href="../who-we-are/our-team.html">
+                            Our Team
+                          </a>
+                          <p>Managing team and partner consultants</p>
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#"
+                aria-haspopup="true" aria-expanded="false">
+                Resources
+              </a>
+            </li>
+            -->
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 text-white d-none d-lg-block on-resources-click" data-toggle="dropdown"
+                href="../resources/">
+                Resources
+              </a>
+              <a class="nav-link px-4 d-lg-none on-resources-click" href="../resources/">
+                Resources
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link px-4 text-white" href="/join-us/index.html" aria-haspopup="true" aria-expanded="false">
+                Join Us
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white" id="navbarDocumentation" href="/contact.html"
+                aria-haspopup="true" aria-expanded="false">
+                Connect With Us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <script>
+      document.querySelector('.on-resources-click').addEventListener('click', function () {
+        window.location.href = '/resources/'
+      })
+    </script>
+
+    <section class="py-5 pt-12">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-8 order-md-2">
+                    <img src="../assets/img/playbook/team-playbook-for-busy-leaders.png" class="img-fluid w-100"
+                        alt="..." data-aos="fade-up" data-aos-delay="100">
+                </div>
+
+                <div class="col-12 col-lg-4 order-md-1 mt-4" data-aos="fade-up">
+                    <h1 class="display-4 text-center text-md-left font-weight-bold"
+                        style="color: #b3324f; font-weight: bold;">
+                        Team playbook for busy leaders.
+                    </h1>
+                    <div style="font-size: 15px; margin-bottom: 10px;">
+                        <p>
+                            As a leader, you are consistently expected to
+                            deliver <b>more results</b> with <b>fewer resources.</b>
+                        </p>
+                        <p>
+                            Although you see the value in teambuilding, the last thing
+                            you have time for is an all-day workshop.
+                        </p>
+                        <p>
+                            That’s why we put together a <b>practical guide</b> with
+                            <b>quick references</b> to show you what a healthy team looks like,
+                            including ready-to-use tools and templates to address
+                            the most common challenges we hear from our clients.
+                        </p>
+                        <p>
+                            Are you ready to deliver better results–together?
+                            <b>Download our free team playbook to supercharge
+                                your business today.</b>
+                        </p>
+                    </div>
+                    <a href="../assets/img/playbook/DesignTeam-BOxD_TeamPlaybook_20220303-1.pdf" class="btn"
+                        style="background-color: #660E51; color: white; text-align: center; padding: 5px 50px; width: 100%;">
+                        <b>Download PDF</b><br>(23 pages)
+                    </a>
+                    <p
+                        style="color: #660E51; font-weight: bold; font-size: 12px; margin-top: 30px; margin-bottom: 5px;">
+                        SHARE THIS TOOL WITH A FELLOW LEADER
+                    </p>
+                    <div class="d-flex flex-col">
+                        <a href="https://www.linkedin.com/company/boxd-us/"><img class="img-fluid" style="width: 47px;"
+                                src="../assets/img/playbook/linkedin.png"></img></a>
+                    </div>
+                </div> <!-- / .row -->
+            </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative pt-10">
+        <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+            <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>
+        </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    <footer class="py-8 py-md-11 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-3">
+
+            <!-- Brand -->
+            <h1 class="text-white font-weight-bold">BOxD</h1>
+
+          </div>
+          <div class="col-6 col-md-3">
+
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              What We Solve For
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="../what-we-solve/culture-and-transformation.html" class="text-reset">
+                  Culture and Transformation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-solve/scalable-organizations.html" class="text-reset">
+                  Scalable Organizations
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-solve/diversity-equity-and-inclusion.html" class="text-reset">
+                  Diversity, Equity and Inclusion
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-solve/new-leader-integration.html" class="text-reset">
+                  New Leader Integration
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-md-3">
+
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              What We Do
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="../what-we-do/strategic-meeting-design-and-facilitation.html" class="text-reset">
+                  Strategic Meeting Design and Facilitation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-do/organization-design.html" class="text-reset">
+                  Organization Design
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../what-we-do/team-acceleration.html" class="text-reset">
+                  Team Acceleration
+                </a>
+              </li>
+              <li>
+                <a href="../what-we-do/leader-development.html" class="text-reset">
+                  Executive and Leader Development
+                </a>
+              </li>
+              <li>
+                <a href="../what-we-do/discovery-and-insights.html" class="text-reset">
+                  Discovery and Insights
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="col-6 col-md-3">
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Who We Are
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="../who-we-are/about-us.html" class="text-reset">
+                  About Us
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../who-we-are/our-team.html" class="text-reset">
+                  Our Team
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../resources/team-playbook.html" class="text-reset">
+                  Play Book
+                </a>
+              </li>
+            </ul>
+
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Legal
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="../terms-of-service.html" class="text-reset">
+                  Terms of Service
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="../privacy-policy.html" class="text-reset">
+                  Privacy Policy
+                </a>
+              </li>
+            </ul>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="../assets/libs/aos/dist/aos.js"></script>
+    <script src="../assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="../assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="../assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="../assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="../assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="../assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="../assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="../assets/libs/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="../assets/libs/quill/dist/quill.min.js"></script>
+    <script src="../assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="../assets/libs/typed.js/lib/typed.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HGTNRWF5F2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-HGTNRWF5F2');
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000"
+          },
+          "button": {
+            "background": "#f1d600"
+          }
+        },
+        "theme": "classic"
+      });
+    </script>
+
+
+</body>
+
+</html>

@@ -32,11 +32,35 @@
     .img-inline-css {
         width: 60% !important;
     }
+    section#organization-design .container {
+    max-width: 1100px;
+    } 
 
     @media only screen and (max-width: 768px) {
         .img-inline-css {
             width: 100% !important;
         }
+    }
+
+    .on-hover-res {
+        box-shadow: 0 0 2px #ccc;
+    }
+
+    .on-hover-res:hover {
+        box-shadow: 0 0 15px #ccc;
+    }
+    .img-fluid.w-75.mb-3.aos-init.aos-animate {
+        width: 298px !important;
+    }
+    .col-12.col-lg-4 {
+        max-width: 31.333%;
+        flex: 0 0 31.333%;
+    }
+    @media only screen and (max-width: 480px) {
+        .col-12.col-lg-4 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
     }
 </style>
 
@@ -225,31 +249,13 @@
             </li>
             -->
             <li class="nav-item dropdown">
-              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block on-resources-click"
-                data-toggle="dropdown" href="../resources/" aria-haspopup="true" aria-expanded="false">
-                Resources
-              </a>
-              <a class="nav-link px-4 dropdown-toggle d-lg-none on-resources-click" aria-expanded="false"
+              <a class="nav-link px-4 text-white d-none d-lg-block on-resources-click" data-toggle="dropdown"
                 href="../resources/">
                 Resources
               </a>
-              <div class="dropdown-menu dropdown-menu-md p-0" aria-labelledby="navbarLandings">
-                <div class="row no-gutters">
-                  <div class="col-12">
-                    <div class="dropdown-body">
-                      <div class="row no-gutters">
-                        <div class="col-12">
-
-                          <a class="font-weight-bold dropdown-item text-secondary"
-                            href="../resources/how-to-reset-a-fatigued-team.html">
-                            How to reset a fatigued team
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <a class="nav-link px-4 d-lg-none on-resources-click" href="../resources/">
+                Resources
+              </a>
             </li>
 
             <li class="nav-item">
@@ -275,16 +281,7 @@
       })
     </script>
 
-    <section class="container pt-11">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="../resources/">RESOURCES</a></li>
-                <li class="breadcrumb-item active" aria-current="page">MAIN</li>
-            </ol>
-        </nav>
-    </section>
-
-    <section class="py-3">
+    <section class="py-5 pt-12">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6 order-md-2">
@@ -315,11 +312,20 @@
                     </h1>
                 </div>
             </div>
+<<<<<<< HEAD
             <div class="row">
                 <div class="col-4 order-md-1 mt-4" style="border: 1px solid #dc3545; border-radius: 10px;"
                     data-aos="fade-up">
                     <a style="text-decoration: none;" href="../resources/how-to-reset-a-fatigued-team.html">
                         <img class="w-100 mb-3" src="../assets/img/resources/how-to-reset.png" data-aos="fade-up"
+=======
+            <div class="row px-3 lg-px-0" style="display: flex;justify-content: space-between;">
+                <div class="col-12 col-lg-4 order-md-1 mt-4 on-hover-res mr-lg-5" data-aos="fade-up"
+                    style="border-radius: 10px; background-color: #F7F9FA;margin-right: 0 !important;">
+                    <a style="text-decoration: none; border-radius: 10px;color: black; text-align: center;"
+                        href="../resources/how-to-reset-a-fatigued-team.html">
+                        <img class="w-100 mb-3" src="../assets/img/resources/how-to-reset-2.png" data-aos="fade-up"
+>>>>>>> main
                             data-aos-delay="100">
                         <p style="font-weight: bold; font-size: 18px; text-align: center;">How to reset a fatigued team
                         </p>
@@ -331,6 +337,48 @@
                             some practical tips for a reset
                         </p>
                     </a>
+<<<<<<< HEAD
+=======
+                </div>
+                <div class="col-12 col-lg-4 order-md-1 mt-4 on-hover-res" data-aos="fade-up"
+                    style="border-radius: 10px; background-color: #F7F9FA;">
+                    <a style="text-decoration: none; border-radius: 10px;color: black; text-align: center;"
+                        href="../resources/team-playbook.html">
+                        <img class="img-fluid w-75 mb-3" src="../assets/img/playbook/Team-Playbook-2.png" data-aos="fade-up"
+                            data-aos-delay="100">
+                        <p style="font-weight: bold; font-size: 18px; text-align: center;">Team Playbook for Busy Leaders
+                        </p>
+                        <p>
+                            A must-have resource for even the most beleaguered team leaders. Packed with tools and templates to address the most common team challenges we hear from our clients.
+                        </p>
+                    </a>
+                </div>
+                <div class="col-12 col-lg-4 order-md-1 mt-4 on-hover-res" data-aos="fade-up"
+                    style="border-radius: 10px; background-color: #F7F9FA;">
+                    <a style="text-decoration: none; border-radius: 10px;color: black; text-align: center;"
+                        href="../resources/empathy-and-the-emotional-labor-tax.html">
+                        <img class="img-fluid w-75 mb-3" src="../assets/img/empathy/empathy.png" data-aos="fade-up"
+                            data-aos-delay="100">
+                        <p style="font-weight: bold; font-size: 18px; text-align: center;">Empathy and the emotional labor tax
+                        </p>
+                        <p>
+                            Today’s leaders are required to manage not just their P&Ls, but also the feelings and experiences of their people. Read on to learn more.
+                        </p>
+                    </a>
+                </div>
+                <div class="col-12 col-lg-4 order-md-1 mt-4 on-hover-res" data-aos="fade-up"
+                    style="border-radius: 10px; background-color: #F7F9FA;">
+                    <a style="text-decoration: none; border-radius: 10px;color: black; text-align: center;"
+                        href="../resources/best-meeting-playlist.html">
+                        <img class="img-fluid w-75 mb-3" src="../assets/img/resources/Best-Meeting-Ever.png" data-aos="fade-up"
+                            data-aos-delay="100">
+                        <p style="font-weight: bold; font-size: 18px; text-align: center;">Best Meeting Ever - Playlist
+                        </p>
+                        <p>
+                            A carefully curated list of tracks to accelerate group brain power at your next big meeting.
+                        </p>
+                    </a>
+>>>>>>> main
                 </div>
             </div> <!-- / .row -->
         </div>
@@ -367,13 +415,13 @@
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-3">
-        
+
                 <!-- Brand -->
                 <h1 class="text-white font-weight-bold">BOxD</h1>
 
               </div>
               <div class="col-6 col-md-3">
-        
+
                 <!-- Heading -->
                 <h6 class="font-weight-bold text-uppercase text-gray-700">
                   What We Solve For
@@ -383,7 +431,7 @@
                 <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
                   <li class="mb-3">
                     <a href="../what-we-solve/culture-and-transformation.html" class="text-reset">
-        	      Culture and Transformation
+                      Culture and Transformation
                     </a>
                   </li>
                   <li class="mb-3">
@@ -393,19 +441,19 @@
                   </li>
                   <li class="mb-3">
                     <a href="../what-we-solve/diversity-equity-and-inclusion.html" class="text-reset">
-        	      Diversity, Equity and Inclusion
+                      Diversity, Equity and Inclusion
                     </a>
                   </li>
                   <li class="mb-3">
                     <a href="../what-we-solve/new-leader-integration.html" class="text-reset">
-        	      New Leader Integration
+                      New Leader Integration
                     </a>
                   </li>
                 </ul>
 
               </div>
               <div class="col-6 col-md-3">
-        
+
                 <!-- Heading -->
                 <h6 class="font-weight-bold text-uppercase text-gray-700">
                   What We Do
@@ -460,6 +508,11 @@
                       Our Team
                     </a>
                   </li>
+                  <li class="mb-3">
+                    <a href="../resources/team-playbook.html" class="text-reset">
+                      Play Book
+                    </a>
+                  </li>
                 </ul>
 
                 <h6 class="font-weight-bold text-uppercase text-gray-700">
@@ -484,7 +537,6 @@
             </div> <!-- / .row -->
           </div> <!-- / .container -->
         </footer>
-
 
         <!-- JAVASCRIPT
     ================================================== -->

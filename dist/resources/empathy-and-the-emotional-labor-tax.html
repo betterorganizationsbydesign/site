@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="../assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="../assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="../assets/libs/choices.js/public/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="../assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="../assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="../assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="../assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="../assets/libs/quill/dist/quill.core.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../assets/css/theme.min.css">
+
+    <title>BOxD | Better Organizations by Design</title>
+
+    <link rel="icon" href="../assets/img/boxd/favicon.webp" sizes="32x32" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+</head>
+
+<style>
+    .img-inline-css {
+        width: 60% !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .img-inline-css {
+            width: 100% !important;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- MODALS
+    ================================================== -->
+    <!-- Example -->
+    <div class="modal" id="modalExample" tabindex="-1" role="dialog" aria-labelledby="modalExampleTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+    	      <h1>Hello!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow py-lg-3 py-1 navbar-light bg-primary">
+      <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/img/boxd/boxd-logo.png" class="navbar-brand-img" alt="...">
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+
+          <!-- Navigation -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#"
+                aria-haspopup="true" aria-expanded="false">
+                What We Solve For
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                What We Solve For
+              </a>
+              <div class="dropdown-menu dropdown-menu-md p-0" aria-labelledby="navbarLandings">
+                <div class="row no-gutters">
+                  <div class="col-12">
+                    <div class="dropdown-body">
+                      <div class="row no-gutters">
+                        <div class="col-12">
+                          <!-- List -->
+                          <a class="font-weight-bold dropdown-item text-secondary"
+                            href="../what-we-solve/culture-and-transformation.html">
+                            Culture and Transformation
+                          </a>
+                          <p>Match your culture to your strategy to accelerate performance.</p>
+
+                          <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary"
+                            href="../what-we-solve/scalable-organizations.html">
+                            Scalable Organizations
+                          </a>
+                          <p>Build organizations ready for rapid growth.</p>
+
+                          <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary"
+                            href="../what-we-solve/diversity-equity-and-inclusion.html">
+                            Diversity, Equity and Inclusion
+                          </a>
+
+                          <p>Go beyond bias training to make lasting change.</p>
+
+                          <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary"
+                            href="../what-we-solve/new-leader-integration.html">
+                            New Leader Integration
+                          </a>
+
+                          <p class="mb-0">Unlock leadership potential to unlock limitless impact.</p>
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#"
+                aria-haspopup="true" aria-expanded="false">
+                What We Do
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                What We Do
+              </a>
+              <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarPages">
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <div class="row no-gutters">
+                      <div class="col-12">
+                        <a class="font-weight-bold dropdown-item text-secondary"
+                          href="../what-we-do/strategic-meeting-design-and-facilitation.html">
+                          Strategic Meeting Design and Facilitation
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary"
+                          href="../what-we-do/organization-design.html">
+                          Organization Design
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary"
+                          href="../what-we-do/team-acceleration.html">
+                          Team Acceleration
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary"
+                          href="../what-we-do/leader-development.html">
+                          Executive and Leader Development
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="font-weight-bold dropdown-item text-secondary"
+                          href="../what-we-do/discovery-and-insights.html">
+                          Discovery and Insights
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#"
+                aria-haspopup="true" aria-expanded="false">
+                Who We Are
+              </a>
+              <a class="nav-link px-4 dropdown-toggle d-lg-none" aria-expanded="false">
+                Who We Are
+              </a>
+              <div class="dropdown-menu dropdown-menu-md p-0" aria-labelledby="navbarLandings">
+                <div class="row no-gutters">
+                  <div class="col-12">
+                    <div class="dropdown-body">
+                      <div class="row no-gutters">
+                        <div class="col-12">
+                          <!-- List -->
+                          <a class="font-weight-bold dropdown-item text-secondary"
+                            href="../who-we-are/about-us.html">
+                            About Us
+                          </a>
+                          <p>Our mission, vision and who we are</p>
+
+                          <div class="dropdown-divider"></div>
+
+                          <a class="font-weight-bold dropdown-item text-secondary"
+                            href="../who-we-are/our-team.html">
+                            Our Team
+                          </a>
+                          <p>Managing team and partner consultants</p>
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white d-none d-lg-block" data-toggle="dropdown" href="#"
+                aria-haspopup="true" aria-expanded="false">
+                Resources
+              </a>
+            </li>
+            -->
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 text-white d-none d-lg-block on-resources-click" data-toggle="dropdown"
+                href="../resources/">
+                Resources
+              </a>
+              <a class="nav-link px-4 d-lg-none on-resources-click" href="../resources/">
+                Resources
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link px-4 text-white" href="/join-us/index.html" aria-haspopup="true" aria-expanded="false">
+                Join Us
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link px-4 dropdown-toggle text-white" id="navbarDocumentation" href="/contact.html"
+                aria-haspopup="true" aria-expanded="false">
+                Connect With Us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <script>
+      document.querySelector('.on-resources-click').addEventListener('click', function () {
+        window.location.href = '/resources/'
+      })
+    </script>
+
+    <section class="container pt-11">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../resources/">RESOURCES</a></li>
+                <li class="breadcrumb-item active" aria-current="page">EMPATHY AND THE EMOTIONAL LABOR TAX</li>
+            </ol>
+        </nav>
+    </section>
+
+    <!-- WELCOME
+    ================================================== -->
+    <section class="py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 order-md-2">
+                    <img src="../assets/img/empathy/empathy.png" class="img-fluid w-100" alt="..."
+                        data-aos="fade-up" data-aos-delay="100">
+                </div>
+
+                <div class="col-12 col-lg-6 order-md-1 mt-4" data-aos="fade-up">
+                    <h1 class="display-4 text-center text-md-left font-weight-bold">
+                        Empathy and the emotional labor tax on today’s leaders
+                    </h1>
+                    <h2 class="font-weight-bold mt-6">
+                        Have you heard the news?
+                    </h2>
+                    <p>
+                        Empathy is the # 1 leadership skill. And according to a recent poll we ran (100+ votes), over 80% reported that people at work are more open about personal issues than they were pre-pandemic.
+                    </p>
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+    </section>
+
+    <section class="py-3" style="background-color: #660E51;" data-aos="fade-up">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="d-flex flex-column flex-lg-row pl-4 pl-lg-0 pb-lg-6 pt-lg-4">
+                    <img src="../assets/img/empathy/dialog1.png" class="img-fluid w-100 mb-3 mb-lg-0" alt="..."
+                        data-aos="fade-up" data-aos-delay="100">
+                    <img src="../assets/img/empathy/dialog2.png" class="img-fluid w-100 mb-3 mb-lg-0 mr-lg-5" alt="..."
+                        data-aos="fade-up" data-aos-delay="100">
+                    <img src="../assets/img/empathy/dialog3.png" class="img-fluid w-100 mb-3 mb-lg-0 mr-lg-8" alt="..."
+                        data-aos="fade-up" data-aos-delay="100">
+                    <img src="../assets/img/empathy/dialog4.png" class="img-fluid w-100" alt="..."
+                        data-aos="fade-up" data-aos-delay="100">
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+    </section>
+
+    <section id="organization-design" class="py-9">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 lg-col-7 text-center" data-aos="fade-up">
+                    <h3 style="font-weight: bold;">
+                        Despite several months of acclimating to a new reality and the societal upheaval spurred by the COVID-19 pandemic, <span style="color: #660E51;">most Americans are still struggling to cope</span> with the disruptions it has caused.
+                    </h3>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-12 text-center" data-aos="fade-up">
+                    <img src="../assets/img/empathy/brain.png" class="img-fluid w-100" alt="..."
+                        data-aos="fade-up" data-aos-delay="100">
+                </div>
+            </div>
+
+            <div class="text-center" data-aos="fade-up">
+                <h3 style="font-weight: bold;">
+                    Let's recap:
+                </h3>
+                <p>Empathy is now the most important leadership skill. </p>
+
+                <p>Many people are wearing their personal issues on their sleeve.</p>
+                
+                <p>More than half of your employees are more stressed out than they've ever been. </p>
+                
+                <p>There aren't enough therapists out there, even if everybody wanted to see one.</p>
+            </div>
+        </div> <!-- / .container -->
+    </section>
+
+    <section class="py-3" style="background-color: #660E51;" data-aos="fade-up">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-white text-center">
+                <div class="col-12 col-lg-8 pt-2">
+                    <p>It's no secret that the pandemic has taken a heavy emotional toll-- just ask your local coffee barista. Or any employee from your CX department. Or your nurse practitioner. They, more than anyone, will be able to tell you how the pandemic has thrust every emotion to the forefront. </p>
+
+                    <p>In the absence of the slow drip of social healing we used to get daily, everyone’s stress is primarily being funneled to service and healthcare workers.</p>
+
+                    <p>Oh, and all of your colleagues.</p>
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+    </section>
+
+    <section id="organization-design" class="py-9">
+        <div class="container">
+            <div class="row justify-content-center mt-4 mb-8">
+                <div class="col-12 text-center" data-aos="fade-up">
+                    <img src="../assets/img/empathy/convo.png" class="img-fluid w-100" alt="..."
+                        data-aos="fade-up" data-aos-delay="100">
+                </div>
+            </div>
+
+            <p>For better or worse, we're entering a world of work where "leave home at home" is no longer a practical-- or ethical-- request. Everyone's definition of "TMI" (too much information) is now up for interpretation.</p>
+
+            <p>Unless you're superhuman, it’s unlikely that you have secret reserves of emotional labor to draw from during this uniquely draining time. </p>
+
+            <p>So what can we do? </p>
+
+            <p>Is it even possible to maintain a consistent amount of empathy for the volume of people we, as leaders, interact with on a daily basis? </p>
+
+            <p>Of course a lot of people are making a lot of money promising "silver bullet" solutions to these issues.</p>
+        </div> <!-- / .container -->
+    </section>
+
+    <section class="py-3" style="background-color: #660E51;" data-aos="fade-up">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-white text-center">
+                <div class="col-12 col-lg-8 pt-2">
+                    <h2>At BOxD, we can’t promise a silver bullet
+                        ... because it doesn’t exist.</h2>
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+    </section>
+
+    <section id="organization-design" class="py-9">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 lg-col-7" data-aos="fade-up">
+                    <h3 style="font-weight: bold;">
+                        What we CAN promise is that our coaches can help you operationalize the hard stuff, like:
+                    </h3>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-12" data-aos="fade-up">
+                    <p>Talking to your employees or coworkers on a meaningful, regular basis. </p>
+
+                    <p>Budgeting time to take care of yourself. </p>
+
+                    <p>Holding space for other feelings while drawing the right boundaries for yourself. </p>
+
+                    <p>Keeping people accountable, with compassion.</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4 mb-8">
+                <div class="col-12 text-center" data-aos="fade-up">
+                    <img src="../assets/img/empathy/d.png" class="img-fluid w-100" alt="..."
+                        data-aos="fade-up" data-aos-delay="100">
+                </div>
+                <div class="col-12 mt-8" data-aos="fade-up">
+                    <p>Yes, there are basic organizational behavior tenets that we can draw from to offer generic off-the-shelf solutions. But everyone is different, so personal growth takes time (and often a skilled, neutral outsider) to unpack the secret sauce for every individual.</p>
+
+                    <p>It's why people can't just read a self-help book and "fix" their mental health issues. </p>
+
+                    <p>Everyone's family background is different. Everyone's values are different. Everyone's culture is their own.</p>
+
+                    <p>At BOxD, we have a bench of coaches with diverse skill sets, personalities and industry experiences because we know that finding the right coaching fit is more than half the battle.</p>
+
+                    <p>As a manager operating in today's environment, you need all the support you can get. By partnering with a company like BOxD, you’ll work with a leadership coach or mentor who will help you set yourself up for success. We’re here to help you learn new ways to manage time more effectively, identify and fill capability gaps on your team, and become a force multiplier for success in your organization.</p>
+                </div>
+            </div>
+        </div> <!-- / .container -->
+    </section>
+
+    <section id="strategic-meetings" class="pt-0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center" data-aos="fade-up">
+                    <h2 class="display-6 font-weight-bold">
+                        Need to reset your fatigued team? Check out <a href="../resources/how-to-reset-a-fatigued-team.html">this article</a> for some tips, and be sure to download our <a href="../resources/team-playbook.html">Team Playbook for Busy Leaders</a> <br>so that you can lead in challenging times.</h2>
+                    <a href="https://www.linkedin.com/company/boxd-us/"><img class="img-fluid" style="width: 47px;"
+                        src="../assets/img/playbook/linkedin.png"></img></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- SHAPE
+    ================================================== -->
+        <div class="position-relative pt-10">
+            <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>
+            </div>
+        </div>
+
+        <!-- FOOTER
+    ================================================== -->
+        <footer class="py-8 py-md-11 bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-3">
+
+                <!-- Brand -->
+                <h1 class="text-white font-weight-bold">BOxD</h1>
+
+              </div>
+              <div class="col-6 col-md-3">
+
+                <!-- Heading -->
+                <h6 class="font-weight-bold text-uppercase text-gray-700">
+                  What We Solve For
+                </h6>
+
+                <!-- List -->
+                <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+                  <li class="mb-3">
+                    <a href="../what-we-solve/culture-and-transformation.html" class="text-reset">
+                      Culture and Transformation
+                    </a>
+                  </li>
+                  <li class="mb-3">
+                    <a href="../what-we-solve/scalable-organizations.html" class="text-reset">
+                      Scalable Organizations
+                    </a>
+                  </li>
+                  <li class="mb-3">
+                    <a href="../what-we-solve/diversity-equity-and-inclusion.html" class="text-reset">
+                      Diversity, Equity and Inclusion
+                    </a>
+                  </li>
+                  <li class="mb-3">
+                    <a href="../what-we-solve/new-leader-integration.html" class="text-reset">
+                      New Leader Integration
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="col-6 col-md-3">
+
+                <!-- Heading -->
+                <h6 class="font-weight-bold text-uppercase text-gray-700">
+                  What We Do
+                </h6>
+
+                <!-- List -->
+                <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+                  <li class="mb-3">
+                    <a href="../what-we-do/strategic-meeting-design-and-facilitation.html" class="text-reset">
+                      Strategic Meeting Design and Facilitation
+                    </a>
+                  </li>
+                  <li class="mb-3">
+                    <a href="../what-we-do/organization-design.html" class="text-reset">
+                      Organization Design
+                    </a>
+                  </li>
+                  <li class="mb-3">
+                    <a href="../what-we-do/team-acceleration.html" class="text-reset">
+                      Team Acceleration
+                    </a>
+                  </li>
+                  <li>
+                    <a href="../what-we-do/leader-development.html" class="text-reset">
+                      Executive and Leader Development
+                    </a>
+                  </li>
+                  <li>
+                    <a href="../what-we-do/discovery-and-insights.html" class="text-reset">
+                      Discovery and Insights
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+
+              <div class="col-6 col-md-3">
+                <!-- Heading -->
+                <h6 class="font-weight-bold text-uppercase text-gray-700">
+                  Who We Are
+                </h6>
+
+                <!-- List -->
+                <ul class="list-unstyled text-muted mb-0">
+                  <li class="mb-3">
+                    <a href="../who-we-are/about-us.html" class="text-reset">
+                      About Us
+                    </a>
+                  </li>
+                  <li class="mb-3">
+                    <a href="../who-we-are/our-team.html" class="text-reset">
+                      Our Team
+                    </a>
+                  </li>
+                  <li class="mb-3">
+                    <a href="../resources/team-playbook.html" class="text-reset">
+                      Play Book
+                    </a>
+                  </li>
+                </ul>
+
+                <h6 class="font-weight-bold text-uppercase text-gray-700">
+                  Legal
+                </h6>
+
+                <!-- List -->
+                <ul class="list-unstyled text-muted mb-0">
+                  <li class="mb-3">
+                    <a href="../terms-of-service.html" class="text-reset">
+                      Terms of Service
+                    </a>
+                  </li>
+                  <li class="mb-3">
+                    <a href="../privacy-policy.html" class="text-reset">
+                      Privacy Policy
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+            </div> <!-- / .row -->
+          </div> <!-- / .container -->
+        </footer>
+
+        <!-- JAVASCRIPT
+    ================================================== -->
+        <!-- Libs JS -->
+        <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+        <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+        <script src="../assets/libs/aos/dist/aos.js"></script>
+        <script src="../assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+        <script src="../assets/libs/countup.js/dist/countUp.min.js"></script>
+        <script src="../assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+        <script src="../assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+        <script src="../assets/libs/flickity-fade/flickity-fade.js"></script>
+        <script src="../assets/libs/highlightjs/highlight.pack.min.js"></script>
+        <script src="../assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <script src="../assets/libs/isotope-layout/dist/isotope.pkgd.min.js"></script>
+        <script src="../assets/libs/quill/dist/quill.min.js"></script>
+        <script src="../assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+        <script src="../assets/libs/typed.js/lib/typed.min.js"></script>
+
+        <!-- Theme JS -->
+        <script src="../assets/js/theme.min.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HGTNRWF5F2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-HGTNRWF5F2');
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+        <script>
+          window.cookieconsent.initialise({
+            "palette": {
+              "popup": {
+                "background": "#000"
+              },
+              "button": {
+                "background": "#f1d600"
+              }
+            },
+            "theme": "classic"
+          });
+        </script>
+
+
+</body>
+
+</html>
